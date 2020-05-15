@@ -1,0 +1,102 @@
+{% extends 'fr/base.html' %}
+
+{% block norepeat %}
+
+<div class="flightinfobox">
+    <div class="infobox">
+        <div class="top">
+            <h1 class="mv">Mon Vol</h1>
+            <h1 class="volnum">{{ flight_number }}</h1>
+        </div>
+        <div class="infotemps">
+            <div class="tpsrstant">
+                <h1 class="element">{{ heure }}H{{ min }}</h1>
+                <p class="comment">De vol restant...</p>
+            </div>
+            <div class="arrivest">
+                <h1 class="element">?H#?</h1>
+                <p class="comment">Heure d'arrivée estimée</p>
+            </div>
+        </div>
+        <img src="{{ url_for('static', filename='./img/separateur.png') }}" alt="separateur" class="separateur">
+        <div class="infotempsdeux">
+            <div class="kmsparc">
+                <h1 class="element">{{ kmsplus }}</h1>
+                <p class="comment">Kms Parcourus</p>
+            </div>
+            <div class="kmsrest">
+                <h1 class="element">{{ kmsmoins }}</h1>
+                <p class="comment">Kms Restants</p>
+            </div>
+        </div>
+        <img src="{{ url_for('static', filename='./img/separateur.png') }}" alt="separateur" class="separateur">
+        <div class="infovitessealt">
+            <div class="altitude">
+                <h1 class="element">{{ Altitude }}m</h1>
+                <p class="comment">Altitude</p>
+            </div>
+            <div class="distsol">
+                <h1 class="element">{{ vitesse }} km/h</h1>
+                <p class="comment">Distance au Sol</p>
+            </div>
+        </div>
+        <div class="bonvol">
+            <h1>Bon Vol ! </h1>
+        </div>
+    </div>
+</div>
+<div class="tilesboxbox">
+    <div class="tilesbox">
+        <a href="{{ url_for('fr_cinema') }}" >
+            <div class="tile" id="cinema">
+                <h2>IMAGINAIR</h2>
+                <h1>CINEMA</h1>
+            </div>    
+        </a>    
+        <a href="{{ url_for('fr_videogames') }}" >
+            <div class="tile" id="games">
+                <img src="{{ url_for('static', filename='./img/game.png') }}" alt="gameimg">
+                <div class="txt">
+                    <h2>JEUX</h2>
+                    <h1>VIDEOS</h1>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('fr_internet') }}" >
+            <div class="tile" id="internet">
+                <div class="txt">
+                    <h2>IMAGINIR</h2>
+                    <img src="{{ url_for('static', filename='./img/internet.png') }}" alt="internetlogo">
+                    <h1>CONNECT</h1>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('fr_music') }}" >
+            <div class="tile" id="music">
+                <img src="{{ url_for('static', filename='./img/music.png') }}" alt="musicimg">
+                <div class="txt">
+                    <h2>MUSIQUE</h2>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('fr_flightmap') }}" >
+            <div class="tile" id="maps">
+                <div class="txt">
+                    <h1>NOTRE</h1>
+                    <h2>VOL</h2>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('fr_weather') }}" >
+            <div class="tile" id="weather">
+                <div class="txt">
+                    <h2>{{dest}}</h2>
+                    <h2>{{weather}}</h2>
+                    <h1>METEO</h1>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+
+{% endblock %}

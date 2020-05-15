@@ -1,0 +1,13 @@
+{% extends 'fr/base.html' %}
+
+{% block norepeat %}
+
+<div id="cesiumContainer" style="width: 100vw; height:76vh;"></div>
+  <script>
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkZWZhZmNjMS0xZDEzLTQ2YjAtYjUyMi1kMmIwZDI2ZGQyZTEiLCJpZCI6MjM1ODMsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1ODM2NjEwNTV9.sLJiG_Ib9V_vPuMMdWz1JgHUTBVz7sXIQO4wJtjUuZw';
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+    terrainProvider: Cesium.createWorldTerrain()
+});
+  </script>
+
+{% endblock %}

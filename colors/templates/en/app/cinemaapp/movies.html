@@ -1,0 +1,24 @@
+{% extends 'en/base.html' %}
+
+{% block norepeat %}
+
+<div class="content-box">
+    <div class="left-menu">
+        <div class="left-menu-content">
+            <div class="search-box">
+                <input type="search" id="site-search" name="q"
+                aria-label="Search through site content">
+                <button class="search-button">🔍</button>
+            </div>
+            <h2>All</h2>
+            <h2>French movies</h2>
+            <h2>Comedies</h2>
+            <h2></h2>
+        </div>
+    </div>
+    <div class="movie-box">
+        <h1 class="notavailable">No results match your search</h1>
+    </div>
+</div>
+
+{% endblock %}

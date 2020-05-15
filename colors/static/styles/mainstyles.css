@@ -1,0 +1,546 @@
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.flightinfobox{
+    width: 68.9655vh;
+}
+.infobox{
+    margin-top: 13.4933vh;
+    display: flex;
+    flex-direction: column;
+    color: #404040;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 8.9955vh;
+}
+.mv{
+    font-size: 5.997vh;
+    color: #404040;
+    margin-left: 0.6em;
+}
+.volnum{
+    margin-right: 1.1em;
+    font-size: 3.8981vh;
+    color: rgba(51, 140, 234, 1);
+}
+.separateur{
+    width: 67.4663vh;
+    align-self: center;
+    margin-top: 1em;
+}
+.infotemps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.infotempsdeux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.infovitessealt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.tpsrstant{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.arrivest{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.kmsparc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.kmsrest{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.altitude{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.distsol{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.element{
+    margin: 0;
+}
+.comment{
+    margin: 0;
+    color: #003669;
+    font-size: 2.2489vh;
+    font-weight: lighter;
+}
+.bonvol{
+    font-family: 'Dancing Script', cursive;
+    align-self: flex-end;
+    margin-right: 5.997vh;
+    color: rgba(192, 0, 0, 1);
+    font-size: 1.5em;
+    margin-top: 1.7991vh;
+}
+.bonvol h1{
+    margin: 0;
+}
+.tilesboxbox{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex: 1 1 auto;
+}
+.tilesbox{
+    height: 73vh;
+    align-self: center;
+    display: flex;
+    margin-left: 74.9625vh;
+    width: 100vw;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 35px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.tile{
+    margin: 1.6vh;
+    background-color: #003669;
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#cinema{
+    height: 42vh;
+    width: 62vh;
+    background-image: url('stylesimg/cinema.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+#cinema h1{
+    color: white;
+    font-size: 13.4933vh;
+    margin: 0;
+    margin-left: 1.949vh;
+    margin-bottom: -1.4993vh;
+}
+#cinema h2{
+    color: rgb(40,242,155);
+    margin: 0;
+    font-size: 5.997vh;
+    margin-bottom: -2.9985vh;
+    margin-left: 2.2489vh;
+}
+#games{
+    height: 20vh;
+    width: 42vh;
+    background-color: rgb(157, 195, 230);
+    display: flex;
+    margin-left: 0px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#games .txt{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20vh;
+    width: 42vh;
+    margin-left: -14.9925vh;
+}
+#games h1{
+    font-size: 7.4963vh;
+    margin: 0;
+    margin-right: 1.4993vh;
+    color: white;
+}
+#games h2{
+    font-size: 5.997vh;
+    margin: 0;
+    margin-right: 1.4993vh;
+    margin-bottom: -2.2489vh;
+    color: #003669;
+}
+#games img{
+    height: 20vh;
+    position: sticky;
+}
+#music{
+    height: 20vh;
+    width: 41vh;
+    margin-left: -19vh;
+    background-color: #f6587e;
+    display: flex;
+    border-left: 1vh solid #f6587e;
+}
+#music .txt{
+    font-size: 5.6972vh;
+    color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20vh;
+    width: 42vh;
+    margin-left: -14.9925vh;
+    margin-right: 1.4993vh;
+}
+#music h2{
+    font-size: 5.997vh;
+}
+#music img{
+    height: 20vh;
+}
+#internet{
+    height: 42vh;
+    width: 21vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.4993vh;
+    justify-content: center;
+}
+#internet .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+#internet img{
+    height: 8.9955vh;
+    margin-top: 2.2489vh;
+    margin-bottom: 2.2489vh;
+}
+#maps{
+    height: 42vh;
+    width: 42vh;
+    display: flex;
+    background-image: url("stylesimg/earth.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#maps .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#maps h1{
+    font-size: 5.997vh;
+    margin: auto;
+    justify-self: center;
+}
+#weather{
+    height: 20vh;
+    width: 42vh;
+    display: flex;
+    background-image: url("none");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(215, 228, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#weather img{
+    height: 16vh;
+    margin-left: 1.4993vh;
+}
+#weather .txt{
+    color: white;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 20vh;
+    font-size: 2.6987vh;
+    margin: 0.6vw;
+}
+#weather h1{
+    font-size: 5vh;
+}
+.notavailable{
+    text-align: center;
+    background: rgba(253, 250, 250, 0.9);
+    color: #003669;
+    margin: 10vh;
+    border-radius: 10px;
+    padding: 2vh;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+}
+.tilesboxcinema{
+    height: 73vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.2474vh;
+    width: 100vw;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 5.2474vh;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.tilecinema{
+    margin: 1.6vh;
+    background-color: #003669;
+    align-self: flex-start;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 20vh;
+    width: 55vh;
+    color: white;
+}
+.tilecinema h1{
+    margin: 2vh;
+}
+#movies{
+    height: 43.2vh;
+    background-image: url(/static/img/films.jpg);
+    background-color: rgba(192, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    font-size: 4.5vh;
+}
+#sports{
+    background-color: seagreen;
+    background-image: url(/static/img/sports.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#series{
+    background-color: rgba(51, 140, 234, 1);
+    background-image: url(/static/img/serie.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#livetv{
+    background-color: #003669;
+    background-image: url(/static/img/livetv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#documentary{
+    background-color: orange;
+    background-image: url(/static/img/documentary.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(253, 250, 250, 0.7);
+}
+.left-menu{
+    width: 68vh;
+    background-color: rgba(253, 250, 250, 0.8);
+    height: 76vh;
+}
+.left-menu-content{
+    margin: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    color: #404040;
+}
+.tri{
+    overflow-y: scroll;
+    height: 56vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.tri h2{
+    margin-bottom: 1.5vh;
+    margin-left: 1vh;
+    padding: 1vh;
+    border-radius: 5px;
+    background-color: rgba(253, 250, 250, 0);
+}
+.tri h2:hover {
+    background-color: rgb(215, 228, 241);
+}
+.tri h2:active{
+    background-color: #003669;
+    color: white;
+}
+.sel_tri_default{
+    background-color: #003669 !important;
+    color: white;
+}
+.search-box{
+    margin: 1vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.champ_de_recherche{
+    height: 6vh;
+    border: none;
+    padding: 0;
+    margin-right: 1vh;
+    flex-grow: 1;
+    border-radius: 5px;
+    padding-left: 1vh;
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+}
+.bouton_de_recherche{
+    height: 6vh;
+    width: 6vh;
+    padding: 0;
+    border: none;
+    background-color: #003669;
+    color: white;
+    border-radius: 5px;
+}
+
+.movie_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin: 2vh;
+}
+.movie{
+    background-color: rgb(157, 195, 230);
+    height: 60vh;
+    width: 45vh;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info_movie{
+    align-self: flex-end;
+    height: fit-content;
+    width: 43vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(45, 45, 45, 0.8);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.info_movie span{
+    font-size: 5vh;
+    height: 5vh;
+    margin-bottom: 1vh;
+    overflow: hidden;
+    animation: defilement 20s infinite linear;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.info_movie img{
+    width:  7vh;
+    height: 7vh;
+}
+.all_movie_infos{
+    display: flex;
+    flex-direction: column;
+}
+.small_movie_infos{
+    font-size: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.small_movie_infos h2{
+    padding: 0.5vh;
+    padding-top: 0;
+}
+
+.movie-img{
+    position: relative;
+    height: 60vh;
+    width: 45vh;
+    z-index: 0;
+    border-radius: 5px;
+    margin-left: -45vh;
+}
+.movie:hover{
+    box-shadow: 0px 0px 4vh rgba(0,0,0,0.2);
+}
+
+/*
+#movie_default{
+    background-image: url("../../static/img/cinema/default.png");
+}
+*/

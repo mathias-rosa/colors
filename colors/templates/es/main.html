@@ -1,0 +1,102 @@
+{% extends 'es/base.html' %}
+
+{% block norepeat %}
+
+    <div class="flightinfobox">
+        <div class="infobox">
+            <div class="top">
+                <h1 class="mv">Mi Vuelo</h1>
+                <h1 class="volnum">{{ flight_number }}</h1>
+            </div>
+            <div class="infotemps">
+                <div class="tpsrstant">
+                    <h1 class="element">{{ heure }}H{{ min }}</h1>
+                    <p class="comment">Tiempo de vuelo restante</p>
+                </div>
+                <div class="arrivest">
+                    <h1 class="element">?H#?</h1>
+                    <p class="comment">Hora estimada de llegada</p>
+                </div>
+            </div>
+            <img src="../../static/img/separateur.png" alt="separateur" class="separateur">
+            <div class="infotempsdeux">
+                <div class="kmsparc">
+                    <h1 class="element">{{ kmsplus }}</h1>
+                    <p class="comment">Kilómetros recorridos</p>
+                </div>
+                <div class="kmsrest">
+                    <h1 class="element">{{ kmsmoins }}</h1>
+                    <p class="comment">Últimos kilómetros</p>
+                </div>
+            </div>
+            <img src="../../static/img/separateur.png" alt="separateur" class="separateur">
+            <div class="infovitessealt">
+                <div class="altitude">
+                    <h1 class="element">{{ Altitude }}m</h1>
+                    <p class="comment">Altura</p>
+                </div>
+                <div class="distsol">
+                    <h1 class="element">{{ vitesse }} km/h</h1>
+                    <p class="comment">Velocidad</p>
+                </div>
+            </div>
+            <div class="bonvol">
+                <h1>Buen Viaje ! </h1>
+            </div>
+        </div>
+    </div>
+    <div class="tilesboxbox">
+        <div class="tilesbox">
+            <a href="{{ url_for('es_cinema') }}" >
+                <div class="tile" id="cinema">
+                    <h2>IMAGINAIR</h2>
+                    <h1>CINE</h1>
+                </div>    
+            </a> 
+            <a href="{{ url_for('es_videogames') }}" >
+                <div class="tile" id="games">
+                    <img src="../../static/img/game.png" alt="gameimg">
+                    <div class="txt">
+                        <h2>VIDEO</h2>
+                        <h1>JUEGOS</h1>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ url_for('es_internet') }}" >
+                <div class="tile" id="internet">
+                    <div class="txt">
+                        <h2>IMAGINIR</h2>
+                        <img src="../../static/img/internet.png" alt="internetlogo">
+                        <h1>CONNECT</h1>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ url_for('es_music') }}" >
+                <div class="tile" id="music">
+                    <img src="../../static/img/music.png" alt="musicimg">
+                    <div class="txt">
+                        <h2>MUSICA</h2>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ url_for('es_flightmap') }}" >
+                <div class="tile" id="maps">
+                    <div class="txt">
+                        <h1>NUESTRO</h1>
+                        <h2>VUELO</h2>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ url_for('es_weather') }}" >
+                <div class="tile" id="weather">
+                    <div class="txt">
+                        <h2>{{dest}}</h2>
+                        <h2>{{weather}}</h2>
+                        <h1>METEO</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    {% endblock %}

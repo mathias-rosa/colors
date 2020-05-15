@@ -1,0 +1,43 @@
+{% extends 'en/base.html' %}
+
+{% block norepeat %}
+
+<div class="tilesboxbox">
+    <div class="tilesboxcinema">
+        <a href="{{ url_for('en_movies') }}" >
+            <div class="tilecinema" id="movies">
+                <h1>Movies</h1>
+            </div>    
+        </a>    
+        <a href="{{ url_for('en_series') }}" >
+            <div class="tilecinema" id="series">
+                <div class="txt">
+                    <h1>Series</h1>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('en_livetv') }}" >
+            <div class="tilecinema" id="livetv">
+                <div class="txt">
+                    <h1>Live TV</h1>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('en_sports') }}" >
+            <div class="tilecinema" id="sports">
+                <div class="txt">
+                    <h1>Sports</h1>
+                </div>
+            </div>
+        </a>
+        <a href="{{ url_for('en_documentary') }}" >
+            <div class="tilecinema" id="documentary">
+                <div class="txt">
+                    <h1>Documentaries</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+{% endblock %}

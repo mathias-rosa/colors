@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="../../static/styles/styles.css?refresh=0">
+    <link rel="stylesheet" href="../../static/styles/styles.css">
+    <title>Welcome on board</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <img class="imlogo" src="../../static/img/imaginairlogo.png" alt="imaginairlogo">
+        <div class="ll">
+            <img class="colors" src="../../static/img/colors.png" alt="colors">
+        </div>
+    </div>
+</header>
+<div id="screenturnedoff" onClick="screenturnedoff()">
+    <img src="../../static/img/view.png" alt="view">
+    <h1>The screen is turned off</h1>
+    <h3>Touch the screen to turn it back on</h3>
+    <h2>L'écran est éteint</h2>
+    <h4>Touchez l'écran pour le ré-allumer</h4>
+</div>
+<div class="content">
+    
+    <video autoplay muted loop id="bgvid">
+        <source src="../../static/img/video.mp4" type="video/mp4">
+    </video>
+    <div class="flightinfobox">
+        <div class="flightinfo">
+            <div class="seat">
+                <h1 class="seat-row">31</h1>
+                <h1 class="seat-number">A</h1>
+            </div>
+            <h1 class="bienvenue">Bienvenue /</h1>
+            <h1 class="welcome">Welcome</h1>
+            <div class="menulg">
+                <a href="{{ url_for('mainfr') }}" ><div class="menubloc" id="un">
+                    <h1>FRANÇAIS</h1>
+                </div></a>
+                <a href="{{ url_for('mainen') }}" ><div class="menubloc" id="deux">
+                    <h1>ENGLISH</h1>
+                </div></a>
+                <a href="{{ url_for('maines') }}" ><div class="menubloc" id="trois">
+                    <h1>ESPAÑOL</h1>
+                </div></a>
+            </div>
+            <div class="bottom">
+                <p class="f-number">{{ flight_number }}</p>
+                <p class="date">
+                    <script>
+                        var date=new Date()
+                        document.write(date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear())
+                    </script>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="popupcontainer" onclick="dispnonepopup()">
+        <div id="volumeslider" onclick="forcepopup()">
+            <img id="play" src="../../static/img/play.png" alt="play" onclick="playpause()">
+            <div id="levraivolumeslider">
+                <img src="../../static/img/volumedown.png" alt="volumemoins">
+                <div id="barslide"></div>
+                <img src="../../static/img/volumeup.png" alt="volumeplus">
+            </div>
+        </div>
+        <audio id="audiocontrol" src="../../static/img/immusic.mp3"></audio>
+        <div id="switchoff">
+            <h1 class="l-one-offmessage">Voulez vous vraiment éteindre l’écran ?</h1>
+            <h1 class="l-two-offmessage">Do you realy want to Turn off the screen ?</h1>
+            <div class="yesnocontainer">
+                <div class="yes" onClick="screenturnedoff()"><h1>YES</h1></div>
+                <div class="no" onClick="switchoff()"><h1>NO</h1></div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="flight">
+            <p class="f-origin">CDG </p><p class="arrow">→</p><p class="f-dest">YUL</p>
+        </div>
+        <div class="items">
+            <img id="light" src="../../static/img/lightoff.png" alt="light" onClick="lighton()">
+            <img class="sound" src="../../static/img/sound.png" alt="sound" onclick='sound();dispnonepopup()'>
+            <img class="onoff" src="../../static/img/onoff.png" alt="onoff" onClick="switchoff();dispnonepopup()">
+        </div>
+    </div>
+</footer>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script  src="../../static/script/script.js"></script>
+</body>
+</html>

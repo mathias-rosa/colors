@@ -1,0 +1,69 @@
+{% extends 'fr/base.html' %}
+
+{% block norepeat %}
+
+<div class="content-box">
+    <div class="left-menu">
+        <div class="left-menu-content">
+            <div class="search-box">
+                <input class="champ_de_recherche" name="q" type="text" placeholder="Rechercher"/>
+            </div>
+            <div class="tri" onclick="triselect()">
+                <h2 class="sel_tri_default">Tout</h2>
+                <h2>Nouveau</h2>
+                <h2>Films</h2>
+                <div class="genre-films">
+                    <h2>Films Français</h2>
+                    <h2>Comédies</h2>
+                    <h2>Drames</h2>
+                    <h2>Action</h2>
+                    <h2>Famille</h2>
+                </div>
+                <h2>Séries</h2>
+                <div class="genre-series">
+                    <h2>Comédies</h2>
+                    <h2>Drames</h2>
+                    <h2>Action</h2>
+                    <h2>Famille</h2>
+                </div>
+                <h2>Documentaires</h2>
+                <h2>Sport</h2>
+            </div>
+        </div>
+    </div>
+    <div class="movie_box">
+
+
+        <!-- film codé dans les divs --
+
+        <div class="movie">
+            <div class="info_movie">
+                <div class="all_movies_info">
+                    <h1>Colors</h1>
+                    <div class="small_movie_infos">
+                        <h2 class="movie_genre">Documentaire</h2>
+                        <h2 class="movie_slash">|</h2>
+                        <h2 class="movie_duration">120 min</h2>
+                    </div>
+                </div>
+                <img src="{{ url_for('static', filename='./img/playwhite.png') }}" alt="white_play_buton">
+
+            </div>
+            <img class="movie-img" src="{{ url_for('static', filename='./img/cinema/Colors.png') }}">
+        </div>
+        
+        --->
+
+
+        <!--------------------------------------------------------------------------------
+
+        <h1 class="notavailable">Aucun résultat correspond à votre recherche</h1>
+
+        --------------------------------------------------------------------------------->
+
+    </div>
+</div>
+
+<script type="module" src="{{ url_for('static', filename='./script/cinema.js') }}"></script>
+
+{% endblock %}
