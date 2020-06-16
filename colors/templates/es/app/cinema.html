@@ -2,42 +2,60 @@
 
 {% block norepeat %}
 
-<div class="tilesboxbox">
-    <div class="tilesboxcinema">
-        <a href="{{ url_for('es_movies') }}" >
-            <div class="tilecinema" id="movies">
-                <h1>Películas</h1>
-            </div>    
-        </a>    
-        <a href="{{ url_for('es_series') }}" >
-            <div class="tilecinema" id="series">
-                <div class="txt">
-                    <h1>Series</h1>
-                </div>
+<link href="{{ url_for('static', filename='./styles/cinemastyles.css') }}" rel="stylesheet">
+<div class="content-box">
+    <div class="left-menu">
+        <div class="left-menu-content">
+            <div class="search-box">
+                <input class="champ_de_recherche" name="q" type="text" placeholder="Buscar"/>
             </div>
-        </a>
-        <a href="{{ url_for('es_livetv') }}" >
-            <div class="tilecinema" id="livetv">
-                <div class="txt">
-                    <h1>TV en directo</h1>
-                </div>
+            <div class="tri" onclick="triselect()">
+                <h2 class="sel_tri_default">Todo</h2>
+                <h2>Películas</h2>
+                <h2>Películas francesas</h2>
+                <h2>Comedias</h2>
+                <h2>Dramas</h2>
+                <h2>Acción</h2>
+                <h2>Familia</h2>
+                <h2>Serie</h2>
+                <h2>Documentales</h2>
+                <h2>Desportes</h2>
             </div>
-        </a>
-        <a href="{{ url_for('es_sports') }}" >
-            <div class="tilecinema" id="sports">
-                <div class="txt">
-                    <h1>Deportes</h1>
+        </div>
+    </div>
+    <div class="app_box">
+
+
+        <!-- film codé dans les divs --
+
+        <div class="movie">
+            <div class="info_movie">
+                <div class="all_movies_info">
+                    <h1>Colors</h1>
+                    <div class="small_movie_infos">
+                        <h2 class="movie_genre">Documentaire</h2>
+                        <h2 class="movie_slash">|</h2>
+                        <h2 class="movie_duration">120 min</h2>
+                    </div>
                 </div>
+                <img src="{{ url_for('static', filename='./img/playwhite.png') }}" alt="white_play_buton">
+
             </div>
-        </a>
-        <a href="{{ url_for('es_documentary') }}" >
-            <div class="tilecinema" id="documentary">
-                <div class="txt">
-                    <h1>Documentales</h1>
-                </div>
-            </div>
-        </a>
+            <img class="movie-img" src="{{ url_for('static', filename='./img/cinema/Colors.png') }}">
+        </div>
+        
+        --->
+
+
+        <!--------------------------------------------------------------------------------
+
+        <h1 class="notavailable">Aucun résultat correspond à votre recherche</h1>
+
+        --------------------------------------------------------------------------------->
+
     </div>
 </div>
+
+<script type="module" src="{{ url_for('static', filename='./script/cinemaEs.js') }}"></script>
 
 {% endblock %}

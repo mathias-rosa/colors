@@ -2,6 +2,7 @@
 
 {% block norepeat %}
 
+<link href="{{ url_for('static', filename='./styles/cinemastyles.css') }}" rel="stylesheet">
 <div class="content-box">
     <div class="left-menu">
         <div class="left-menu-content">
@@ -10,28 +11,19 @@
             </div>
             <div class="tri" onclick="triselect()">
                 <h2 class="sel_tri_default">Tout</h2>
-                <h2>Nouveau</h2>
                 <h2>Films</h2>
-                <div class="genre-films">
-                    <h2>Films Français</h2>
-                    <h2>Comédies</h2>
-                    <h2>Drames</h2>
-                    <h2>Action</h2>
-                    <h2>Famille</h2>
-                </div>
+                <h2>Films Français</h2>
+                <h2>Comédies</h2>
+                <h2>Drames</h2>
+                <h2>Action</h2>
+                <h2>Famille</h2>
                 <h2>Séries</h2>
-                <div class="genre-series">
-                    <h2>Comédies</h2>
-                    <h2>Drames</h2>
-                    <h2>Action</h2>
-                    <h2>Famille</h2>
-                </div>
                 <h2>Documentaires</h2>
-                <h2>Sport</h2>
+                <h2>Sports</h2>
             </div>
         </div>
     </div>
-    <div class="movie_box">
+    <div class="app_box">
 
 
         <!-- film codé dans les divs --
@@ -64,6 +56,6 @@
     </div>
 </div>
 
-<script type="module" src="{{ url_for('static', filename='./script/cinema.js') }}"></script>
+<script type="module" src="{{ url_for('static', filename='./script/cinemaFr.js') }}"></script>
 
 {% endblock %}

@@ -2,6 +2,70 @@
 
 {% block norepeat %}
 
-<h1 class="notavailable">Cette fonctionalité n'est pas disponible pour le moment</h1>
+
+<link href="{{ url_for('static', filename='./styles/musicstyles.css') }}" rel="stylesheet">
+<div class="content-box">
+    <div class="left-menu">
+        <div class="left-menu-content">
+            <div class="search-box">
+                <input class="champ_de_recherche" name="q" type="text" placeholder="Rechercher"/>
+            </div>
+            <div class="tri" onclick="triselect()">
+                <h2 class="sel_tri_default">Tout</h2>
+                <h2>Hits</h2>
+                <h2>Pop</h2>
+                <h2>Variété Française</h2>
+                <h2>Rock</h2>
+                <h2>Country</h2>
+                <h2>Rap</h2>
+                <h2>K-Pop</h2>
+                <h2>Musique Clasique</h2>
+                <h2>Reggae</h2>
+                <h2>Hip-Hop</h2>
+                <h2>Latino</h2>
+                <h2>Jazz</h2>
+                <h2>Electronique</h2>
+                <h2>Blues</h2>
+                <h2>Métal</h2>
+            </div>
+        </div>
+    </div>
+    <div class="app_box">
+
+
+        <!-- musique codée dans les divs --
+
+        <div class="music">
+            <div class="info_music">
+                <div class="all_music_info">
+                    <div class="small_music_info_un">
+                        <h1>Colors</h1>
+                        <h2 class="music_slash">| </h2>
+                        <h2 class="music_duration">3 min 55s</h2>
+                    </div>
+                    <div class="small_music_infos">
+                        <h2 class="music_genre">Pop</h2>
+                        <h2 class="music_author">IMAGINAIR</h2>
+                    </div>
+                </div>
+                <img src="{{ url_for('static', filename='./img/playwhite.png') }}" alt="white_play_buton">
+
+            </div>
+            <img class="music-img" src="{{ url_for('static', filename='./img/music/Colors.png') }}">
+        </div>
+        
+        --->
+
+
+        <!--------------------------------------------------------------------------------
+
+        <h1 class="notavailable">Aucun résultat correspond à votre recherche</h1>
+
+        --------------------------------------------------------------------------------->
+
+    </div>
+</div>
+
+<script type="module" src="{{ url_for('static', filename='./script/musicFr.js') }}"></script>
 
 {% endblock %}

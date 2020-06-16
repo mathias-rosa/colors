@@ -38,59 +38,39 @@ def mainfr():
                            )
 
 
-@app.route('/fr/internet')
+@app.route('/fr/internet/')
 def fr_internet():
     return render_template('/fr/app/internet.html',
                            )
-@app.route('/fr/flightmap')
+@app.route('/fr/flightmap/')
 def fr_flightmap():
     return render_template('/fr/app/flightmap.html',
                            )
 
-@app.route('/fr/videogames')
+@app.route('/fr/videogames/')
 def fr_videogames():
     return render_template('/fr/app/videogames.html',
                            )
 
-@app.route('/fr/cinema')
+@app.route('/fr/cinema/')
 def fr_cinema():
     return render_template('/fr/app/cinema.html',
                            )
 
 #cinemafr----------------------------------------------------------------------------------
 
-@app.route('/fr/cinema/movies')
-def fr_movies():
-    return render_template('/fr/app/cinemaapp/movies.html',
+@app.route('/fr/cinema/details/')
+def fr_cinema_details():
+    return render_template('/fr/app/cinema_details.html',
                            )
-
-@app.route('/fr/cinema/livetv')
-def fr_livetv():
-    return render_template('/fr/app/cinemaapp/livetv.html',
-                           )
-
-@app.route('/fr/cinema/series')
-def fr_series():
-    return render_template('/fr/app/cinemaapp/series.html',
-                           )           
-
-@app.route('/fr/cinema/documentary')
-def fr_documentary():
-    return render_template('/fr/app/cinemaapp/documentary.html',
-                           )         
-
-@app.route('/fr/cinema/sports')
-def fr_sports():
-    return render_template('/fr/app/cinemaapp/sports.html',
-                           )                                  
 
 #------------------------------------------------------------------------------------------
-@app.route('/fr/music')
+@app.route('/fr/music/')
 def fr_music():
     return render_template('/fr/app/music.html',
                            )  
 
-@app.route('/fr/weather')
+@app.route('/fr/weather/')
 def fr_weather():
     return render_template('/fr/app/weather.html',
                            )    
@@ -114,60 +94,60 @@ def mainen():
                            )
 
 
-@app.route('/en/internet')
+@app.route('/en/internet/')
 def en_internet():
     return render_template('/en/app/internet.html',
                            )
-@app.route('/en/flightmap')
+@app.route('/en/flightmap/')
 def en_flightmap():
     return render_template('/en/app/flightmap.html',
                            )
 
-@app.route('/en/videogames')
+@app.route('/en/videogames/')
 def en_videogames():
     return render_template('/en/app/videogames.html',
                            )
 
-@app.route('/en/cinema')
+@app.route('/en/cinema/')
 def en_cinema():
     return render_template('/en/app/cinema.html',
                            )
 
 #cinemaen----------------------------------------------------------------------------------
 
-@app.route('/en/cinema/movies')
+@app.route('/en/cinema/movies/')
 def en_movies():
     return render_template('/en/app/cinemaapp/movies.html',
                            )
 
-@app.route('/en/cinema/livetv')
+@app.route('/en/cinema/livetv/')
 def en_livetv():
     return render_template('/en/app/cinemaapp/livetv.html',
                            )
 
-@app.route('/en/cinema/series')
+@app.route('/en/cinema/series/')
 def en_series():
     return render_template('/en/app/cinemaapp/series.html',
                            )           
 
-@app.route('/en/cinema/documentary')
+@app.route('/en/cinema/documentary/')
 def en_documentary():
     return render_template('/en/app/cinemaapp/documentary.html',
                            )           
 
-@app.route('/en/cinema/sports')
+@app.route('/en/cinema/sports/')
 def en_sports():
     return render_template('/en/app/cinemaapp/sports.html',
                            )      
 
 #------------------------------------------------------------------------------------------                          
 
-@app.route('/en/music')
+@app.route('/en/music/')
 def en_music():
     return render_template('/en/app/music.html',
                            )                                                  
 
-@app.route('/en/weather')
+@app.route('/en/weather/')
 def en_weather():
     return render_template('/en/app/weather.html',
                            )                       
@@ -189,59 +169,59 @@ def maines():
                            weather = weather,
                            )
 
-@app.route('/es/internet')
+@app.route('/es/internet/')
 def es_internet():
     return render_template('/es/app/internet.html',
                            )
-@app.route('/es/flightmap')
+@app.route('/es/flightmap/')
 def es_flightmap():
     return render_template('/es/app/flightmap.html',
                            )
 
-@app.route('/es/videogames')
+@app.route('/es/videogames/')
 def es_videogames():
     return render_template('/es/app/videogames.html',
                            )
 
-@app.route('/es/cinema')
+@app.route('/es/cinema/')
 def es_cinema():
     return render_template('/es/app/cinema.html',
                            )
 
 #cinemaen----------------------------------------------------------------------------------
 
-@app.route('/es/cinema/movies')
+@app.route('/es/cinema/movies/')
 def es_movies():
     return render_template('/es/app/cinemaapp/movies.html',
                            )
 
-@app.route('/es/cinema/livetv')
+@app.route('/es/cinema/livetv/')
 def es_livetv():
     return render_template('/es/app/cinemaapp/livetv.html',
                            )
 
-@app.route('/es/cinema/series')
+@app.route('/es/cinema/series/')
 def es_series():
     return render_template('/es/app/cinemaapp/series.html',
                            )           
 
-@app.route('/es/cinema/documentary')
+@app.route('/es/cinema/documentary/')
 def es_documentary():
     return render_template('/es/app/cinemaapp/documentary.html',
                            )           
 
-@app.route('/es/cinema/sports')
+@app.route('/es/cinema/sports/')
 def es_sports():
     return render_template('/es/app/cinemaapp/sports.html',
                            )                           
 
 #------------------------------------------------------------------------------------------
 
-@app.route('/es/music')
+@app.route('/es/music/')
 def es_music():
     return render_template('/es/app/music.html',
                            )                                                  
-@app.route('/es/weather')
+@app.route('/es/weather/')
 def es_weather():
     return render_template('/es/app/weather.html',
                            )    

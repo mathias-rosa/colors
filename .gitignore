@@ -1,0 +1,4 @@
+*.pyc
+__pycache__
+app.db
+video.mp4

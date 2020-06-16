@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    background-image: url('../img/colorbg.png');
+}
+.menubox{
+    display: flex;
+    height: 100vh;
+    flex: 1;
+    background-color: rgba(89, 89, 89, 0.7);
+    flex-wrap: wrap;
+    align-content: baseline;
+}
+.infobox{
+    display: flex;
+    height: 100vh;
+    flex: 2.5;
+    background-color: rgba(89, 89, 89, 0.44);
+    flex-direction: column;
+}
+.headmark{
+    display: flex;
+    top: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: none;
+}
+.cros_close{
+    height: 6vh;
+    width: 6vh;
+    margin-right: 4vh;
+}
+.infobox .headmark{
+    background-color: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.menubox .headmark{
+    background-color: rgba(38, 38, 38, 0.6);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7vh;
+}
+.menubox .headmark h1{
+    font-weight: 400;
+}
+.selbox{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5vh;
+}
+.selbox h1{
+    font-weight: 400;
+    text-align: end;
+    margin: 2vh;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+.movie_box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+}
+.footer{
+    height: 12vh;
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex: 6;
+    width: 100%;
+    margin-bottom: 5vh;
+    flex-direction: row;
+}
+.movie_img{
+    width: 43vh;
+    border-radius: 5px;
+}
+.buttons{
+    flex: 1;
+    width: 100%;
+}
+.info_next{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 5vh;
+}
+.info_next h1{
+    width: fit-content;
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.div_btn{
+    width: 48vh;
+    height: 7vh;
+    margin-right: 5vh;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.6);
+    font-size: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+.div_btn:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(38, 38, 38, 0.6);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+#div_btn_deux{
+    background-color: rgba(27, 27, 27, 0.705);
+}
+#div_btn_deux:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(38, 38, 38, 0.6);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+.div_btn h1{
+    font-weight: 400;
+}
+.info_next div{
+    display: flex;
+}
+.info_next h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.title{
+    flex: 2;
+    font-size: 2.2vh;
+    align-items: flex-end;
+}
+.genre{
+    flex: 1;
+    font-size: 1.3vh;
+}
+.duration{
+    flex: 1.5;
+    font-size: 1.9vh;
+}
+.description{
+    flex: 6;
+    font-size: 1vh;
+    align-items: flex-start;
+}

@@ -1,1 +1,2 @@
-worker: python run.py
+web: gunicorn colors:app
+init: FLASK_APP=run.py

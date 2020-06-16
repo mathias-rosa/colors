@@ -1,0 +1,78 @@
+.movie{
+    background-color: rgb(157, 195, 230);
+    height: 60vh;
+    width: 45vh;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info_movie{
+    align-self: flex-end;
+    height: fit-content;
+    width: 43vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(45, 45, 45, 0.8);
+    backdrop-filter: blur(5px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.info_movie h1{
+    font-size: 4vh;
+    height: 5vh;
+    margin-bottom: 1vh;
+    overflow: hidden;
+    animation: defilement 20s infinite linear;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    width: 36vh;
+}
+.info_movie img{
+    width:  7vh;
+    height: 7vh;
+}
+.all_movie_infos{
+    display: flex;
+    flex-direction: column;
+}
+.small_movie_infos{
+    font-size: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.small_movie_infos h2{
+    padding: 0.5vh;
+    padding-top: 0;
+    height: 3vh;
+}
+.movie_genre{
+    width: 26vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.movie-img{
+    position: relative;
+    height: 60vh;
+    width: 45vh;
+    z-index: 0;
+    border-radius: 5px;
+    margin-left: -45vh;
+}
+.movie:hover{
+    box-shadow: 0px 0px 4vh rgba(0,0,0,0.2);
+}
