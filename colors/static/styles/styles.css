@@ -92,7 +92,7 @@ header{
     z-index: 1;
 }
 .imlogo{
-    height: 10.6vh;
+    height: 7vh;
     margin-left: 1em;
 }
 .colors{
@@ -125,13 +125,13 @@ footer p{
     padding-right: 0.7496vh;
 }
 .f-origin{
-    color: rgba(192, 0, 0, 1);
+    color: rgba(217, 4, 41, 1);
 }
 .f-dest{
-    color: #003669;
+    color: rgba(0, 50, 99, 1);
 }
 .arrow{
-    color: rgba(51, 140, 234, 1);
+    color: rgba(4, 114, 231, 1);
     font-size: 6vh;
 }
 .items{
@@ -176,7 +176,7 @@ footer p{
 }
 .seat-row{
     font-size: 22.4888vh;
-    color: rgba(192, 0, 0, 1);
+    color: rgba(217, 4, 41, 1);
     margin: 0;
     margin-top: 7vh;
 }
@@ -217,33 +217,33 @@ footer p{
     border-radius: 6px;
 }
 #un{
-    background-color: rgba(0, 54, 105, 1);
+    background-color: rgba(0, 50, 99, 1);
     transition-duration: 0.5s;
     transition-timing-function: ease;
     backdrop-filter: blur(5px);
 }
 #deux{
-    background-color: rgba(51, 140, 234, 1);
+    background-color: rgba(4, 114, 231, 1);
     transition-duration: 0.5s;
     transition-timing-function: ease;
     backdrop-filter: blur(5px);
 }
 #trois{
-    background-color: rgba(192, 0, 0, 1);
+    background-color: rgba(217, 4, 41, 1);
     margin-bottom: -1vh;
     transition-duration: 0.5s;
     transition-timing-function: ease;
     backdrop-filter: blur(5px);
 }
 #un:hover{
-    background-color: rgba(0, 54, 105, 0.7);
+    background-color: rgba(0, 50, 99, 0.7);
 }
 #deux:hover{
-    background-color: rgba(51, 140, 234, 0.7);
+    background-color: rgba(4, 114, 231, 0.7);
 
 }
 #trois:hover{
-    background-color: rgba(192, 0, 0, 0.7);
+    background-color: rgba(217, 4, 41, 0.7);
 }
 .menubloc h1{
     margin: 0;
@@ -312,21 +312,21 @@ footer p{
     height: 0.5997vh;
     border-radius: 2.2489vh;
     width: 60%;
-    background-color:  #003669;
+    background-color: rgba(0, 50, 99, 1);
     margin-right: 0.7496vh;
 }
 #barslide .ui-slider-range-min {
     height: 0.5997vh;
     width: 60%;
     position: sticky;
-    background: rgba(192, 0, 0, 1);
+    background: rgba(217, 4, 41, 1);
     border-radius: 10px;
 }
 #barslide .ui-slider-handle {
     width: 2.9985vh;
     height: 2.9985vh;
     border-radius: 2.9985vh;
-    background: rgba(192, 0, 0, 1);
+    background: rgba(217, 4, 41, 1);
     position: relative;
     outline: none;
     margin-left: -1.1994vh;
@@ -364,7 +364,7 @@ footer p{
     font-weight: normal;
 }
 .yes{
-    background-color: rgba(51, 140, 234, 0.98);
+    background-color: rgba(4, 114, 231, 0.98);
     border-radius: 5px;
     height: 4.7976vh;
     width: 14.9925vh;
@@ -378,7 +378,7 @@ footer p{
     transition-timing-function: ease;
 }
 .yes:hover{
-    background-color: rgba(51, 140, 234, 0.7);
+    background-color: rgba(4, 114, 231, 0.7);
 }
 .yes h1{
     font-size: 3.5982vh;
@@ -387,7 +387,7 @@ footer p{
     font-weight: lighter;
 }
 .no{
-    background-color: rgba(192, 0, 0, 0.98);
+    background-color: rgba(217, 4, 41, 0.98);
     border-radius: 0.7496vh;
     height: 4.7976vh;
     width: 14.9925vh;
@@ -402,7 +402,7 @@ footer p{
     transition-timing-function: ease;
 }
 .no:hover{
-    background-color: rgba(192, 0, 0, 0.7);
+    background-color: rgba(217, 4, 41, 0.7);
 }
 .no h1{
     font-size: 3.5982vh;
