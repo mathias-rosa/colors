@@ -16,10 +16,11 @@ function compare(a, b) {
   
   listMovie.sort(compare);
 
+
 const appBox = document.getElementsByClassName("app_box")[0];
   
     for (let movie of listMovie) {
-        let divMovie =  document.createElement("div");
+        let divMovie =  document.createElement("a");
         let divInfoMovie = document.createElement("div");
         let imgMovieCover = document.createElement("img")
         let imgPlay = document.createElement("img")
@@ -54,6 +55,8 @@ const appBox = document.getElementsByClassName("app_box")[0];
 
 
         divMovie.setAttribute('class', 'movie');
+        let detailsUrl = '/fr/cinema/details/' + movie.title;
+        divMovie.setAttribute('href', detailsUrl);
         divInfoMovie.setAttribute('class', 'info_movie');
         divAllMovieInfo.setAttribute('class', 'all_movies_info');
         divSmallMovieInfo.setAttribute('class', 'small_movie_infos');

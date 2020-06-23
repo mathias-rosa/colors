@@ -65,13 +65,18 @@ body{
     text-align: center;
     align-items: center;
     font-size: 2.5vh;
+    cursor: pointer;
 }
 .selbox h1{
     font-weight: 400;
     text-align: end;
     margin: 2vh;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+    max-height: 10vh;
+    width: 100%;
     overflow: hidden;
+    font-size: 3vh;
+    padding: 1vh;
 }
 .movie_box{
     flex: 1;
@@ -123,18 +128,19 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1vh;
+    cursor: pointer;
 }
 .div_btn:hover{
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(38, 38, 38, 0.6);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*color: rgba(38, 38, 38, 0.6);*/
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 #div_btn_deux{
     background-color: rgba(27, 27, 27, 0.705);
 }
 #div_btn_deux:hover{
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(38, 38, 38, 0.6);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*color: rgba(38, 38, 38, 0.6);*/
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 .div_btn h1{

@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='./styles/cinemaDetailsStyles.css') }}">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <title>Bienvenue à bord</title>
+    <title>Welcome on board</title>
 </head>
 <body>
 
     <div class="content">
         <div class="menubox">
             <div class="headmark">
-                <h1>Menu de sélection</h1>
+                <h1>Selection Menu</h1>
             </div>
             <div class="selbox">
                 <h1>Colors</h1>
@@ -35,18 +35,18 @@
                     <img class="movie_img" src="{{ url_for('static', filename='./img/cinema/Colors.jpg') }}">
                     <div class="info_next">
                         <div class="title"><h1>Colors</h1></div>
-                        <div class="genre"><h1>Documentaire</h1></div>
-                        <div class="duration"><h1>durée</h1></div>
+                        <div class="genre"><h1>Documentary</h1></div>
+                        <div class="duration"><h1>duration</h1></div>
                         <div class="description"><h1>description</h1></div>
                     </div>
 
                 </div>
                 <div class="buttons">
                     <div class="div_btn" id="div_btn_un">
-                        <h1>Regarder la Bande annonce</h1>
+                        <h1>Watch the Trailer</h1>
                     </div>
                     <div class="div_btn" id="div_btn_deux">
-                        <h1>Regarder le Film</h1>
+                        <h1>Watch the movie</h1>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
 
     <h1 class="flaskvariable" style="display: none;">{{ movie }}</h1>
 
-    <script type="module" src="{{ url_for('static', filename='./script/cinemaDetailsFr.js') }}">
+    <script type="module" src="{{ url_for('static', filename='./script/cinemaDetailsEn.js') }}">
     </script>
 
 </body>

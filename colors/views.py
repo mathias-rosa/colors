@@ -59,9 +59,10 @@ def fr_cinema():
 
 #cinemafr----------------------------------------------------------------------------------
 
-@app.route('/fr/cinema/details/')
-def fr_cinema_details():
+@app.route('/fr/cinema/details/<movie>')
+def fr_cinema_details(movie):
     return render_template('/fr/app/cinema_details.html',
+                            movie = movie,
                            )
 
 #------------------------------------------------------------------------------------------
@@ -115,30 +116,11 @@ def en_cinema():
 
 #cinemaen----------------------------------------------------------------------------------
 
-@app.route('/en/cinema/movies/')
-def en_movies():
-    return render_template('/en/app/cinemaapp/movies.html',
-                           )
-
-@app.route('/en/cinema/livetv/')
-def en_livetv():
-    return render_template('/en/app/cinemaapp/livetv.html',
-                           )
-
-@app.route('/en/cinema/series/')
-def en_series():
-    return render_template('/en/app/cinemaapp/series.html',
-                           )           
-
-@app.route('/en/cinema/documentary/')
-def en_documentary():
-    return render_template('/en/app/cinemaapp/documentary.html',
-                           )           
-
-@app.route('/en/cinema/sports/')
-def en_sports():
-    return render_template('/en/app/cinemaapp/sports.html',
-                           )      
+@app.route('/en/cinema/details/<movie>')
+def en_cinema_details(movie):
+    return render_template('/en/app/cinema_details.html',
+                            movie = movie,
+                           ) 
 
 #------------------------------------------------------------------------------------------                          
 
@@ -188,32 +170,13 @@ def es_cinema():
     return render_template('/es/app/cinema.html',
                            )
 
-#cinemaen----------------------------------------------------------------------------------
+#cinemaes----------------------------------------------------------------------------------
 
-@app.route('/es/cinema/movies/')
-def es_movies():
-    return render_template('/es/app/cinemaapp/movies.html',
-                           )
-
-@app.route('/es/cinema/livetv/')
-def es_livetv():
-    return render_template('/es/app/cinemaapp/livetv.html',
-                           )
-
-@app.route('/es/cinema/series/')
-def es_series():
-    return render_template('/es/app/cinemaapp/series.html',
-                           )           
-
-@app.route('/es/cinema/documentary/')
-def es_documentary():
-    return render_template('/es/app/cinemaapp/documentary.html',
-                           )           
-
-@app.route('/es/cinema/sports/')
-def es_sports():
-    return render_template('/es/app/cinemaapp/sports.html',
-                           )                           
+@app.route('/es/cinema/details/<movie>')
+def es_cinema_details(movie):
+    return render_template('/es/app/cinema_details.html',
+                            movie = movie,
+                           )                          
 
 #------------------------------------------------------------------------------------------
 
