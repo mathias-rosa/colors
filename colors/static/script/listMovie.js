@@ -9,6 +9,9 @@ let listMovie = [
         genreFr: "Film d'animation, Aventure, Famille",
         genreEs: "Animación, Aventura, Familia",
         duration: "102 min",
+        description : "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
+        descriptionFr : "Anna, une jeune fille aussi audacieuse qu’optimiste, se lance dans un incroyable voyage en compagnie de Kristoff, un montagnard expérimenté, et de son fidèle renne, Sven à la recherche de sa sœur, Elsa, la Reine des neiges qui a plongé le royaume d’Arendelle dans un hiver éternel… En chemin, ils vont rencontrer de mystérieux trolls et un drôle de bonhomme de neige nommé Olaf, braver les conditions extrêmes des sommets escarpés et glacés, et affronter la magie qui les guette à chaque pas.",
+        descriptionEs : "Cuando una profecía condena a un reino a un invierno eterno, Anna, una joven optimista se une a un temerario montañero llamado Kristoff y a su compinche el reno Sven. Juntos emprenden un viaje épico en busca de Elsa, hermana de Anna y Reina de las Nieves para poner fin al gélido hechizo.",
     },
     {
         title: "Frozen II",
@@ -18,15 +21,21 @@ let listMovie = [
         genreFr: "Aanimation, Aventure, Famille",
         genreEs: "Animación, Familia, Aventura",
         duration: "104 min",
+        description : "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+        descriptionFr : "Elsa, Anna, Kristoff, Olaf et Sven voyagent bien au-delà des portes d’Arendelle à la recherche de réponses sur le passé d'Elsa. Cette dernière rencontre un Nokk – un esprit d’eau mythique prenant la forme d’un cheval - qui utilise le pouvoir de l’océan pour protéger les secrets de la forêt.",
+        descriptionEs : "¿Por qué nació Elsa con poderes mágicos? La respuesta le está llamando y amenaza su reino. Junto con Anna, Kristoff, Olaf y Sven emprenderá un viaje peligroso e inolvidable. En 'Frozen: El Reino del Hielo', Elsa temía que sus poderes fueran demasiado para el mundo. En 'Frozen 2', deseará que sean suficientes.",
     },
     {
-        title: "La Grande Vadrouille",
+        title: "Don't Look Now: We're Being Shot At",
         titleFr: "La Grande Vadrouille",
         titleEs: "La gran juerga",
         genre: "Comedy, French Movie",
         genreFr: "Comédie, Film Français",
         genreEs: "Película, Comedia, Bélica",
         duration: "132 min",
+        description : "During World War II, two French civilians and a downed British Bomber Crew set out from Paris to cross the demarcation line between Nazi-occupied Northern France and the South. From there they will be able to escape to England. First, they must avoid German troops - and the consequences of their own blunders.",
+        descriptionFr : "En 1942, un avion anglais est abattu par les Allemands au-dessus de Paris. Les trois pilotes sautent en parachute et atterrissent dans différents endroits de la capitale. Ils sont aidés par deux civils français, un chef d'orchestre et un peintre en bâtiment qui acceptent de les mener en zone libre; ils deviennent ainsi, malgré eux, acteurs de la Résistance.",
+        descriptionEs : "Segunda Guerra Mundial (1939-1945). Parodia de la ocupación de Francia por los alemanes. Terry-Thomas es un piloto inglés que se encuentra perdido en la Francia ocupada, mientras que Bourvil y Louis de Funès son dos parisinos que, casi involuntariamente, ayudan a la resistencia contra los nazis. Un film que en Francia obtuvo un enorme éxito de taquilla.",
     },
     {
         title: "Star Wars",
@@ -35,7 +44,10 @@ let listMovie = [
         genre: "Adventure, Action, Science Fiction",
         genreFr: "Film, Aventure, Action, Science Fiction",
         genreEs: "Película, Aventura, Acción, Ciencia Ficción",
-        duration: "121 min"
+        duration: "121 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Harry Potter and the Philosopher's Stone",
@@ -44,7 +56,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Fantastique, Aventure",
         genreEs: "Película, Aventura, Fantasía, Familia",
-        duration: "153 min"
+        duration: "153 min",
+        description : "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+        descriptionFr : "Orphelin, Harry Potter a été recueilli en bas âge par sa tante Pétunia et son oncle Vernon, deux abominables créatures qui, depuis dix ans, prennent un malin plaisir à l’humilier, le houspiller et le malmemer. Contraint de se nourrir de restes et de dormir dans un placard infesté d’araignées, le malheureux est en butte à l’hostilité de son cousin Dudley, obèse imbécile qui ne manque pas une occasion de le rouer de coups. L’année de ses 11 ans, Harry ne s’attend pas à recevoir de cadeaux, pourtant cette année là, une lettre mystérieuse va lui parvenir qui va changer son existence...",
+        descriptionEs : "Harry Potter es un huérfano que vive con sus desagradables tíos, los Dursley, y su repelente primo Dudley. Se acerca su undécimo cumpleaños y tiene pocas esperanzas de recibir algún regalo, ya que nunca nadie se acuerda de él. Sin embargo, pocos días antes de su cumpleaños, una serie de misteriosas cartas dirigidas a él y escritas con una estridente tinta verde rompen la monotonía de su vida: Harry es un mago y sus padres también lo eran.",
     },
     {
         title: "Harry Potter and the Chamber of Secrets",
@@ -53,7 +68,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique",
         genreEs: "Película, Aventura, Fantasía",
-        duration: "161 min"
+        duration: "161 min",
+        description : "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
+        descriptionFr : "Alors que l'oncle Vernon, la tante Pétunia et son cousin Dudley reçoivent d'importants invités à dîner, Harry Potter est contraint de passer la soirée dans sa chambre. Dobby, un elfe, fait alors son apparition. Il lui annonce que de terribles dangers menacent l'école de Poudlard et qu'il ne doit pas y retourner en septembre. Harry refuse de le croire. Mais sitôt la rentrée des classes effectuée, ce dernier entend une voix malveillante. Celle-ci lui dit que la redoutable et légendaire Chambre des Secrets est à nouveau ouverte, permettant ainsi à l'héritier de Serpentard de semer le chaos à Poudlard. Les victimes, retrouvées pétrifiées par une force mystérieuse, se succèdent dans les couloirs de l'école, sans que les professeurs - pas même le populaire Gilderoy Lockhart - ne parviennent à endiguer la menace. Aidé de Ron et Hermione, Harry doit agir au plus vite pour sauver Poudlard.",
+        descriptionEs : "Harry regresa a su segundo año a Hogwarts, pero descubre que cosas malas ocurren debido a que un sitio llamado la Cámara de los Secretos ha sido abierto por el heredero de Slytherin y hará que los hijos de muggles, los impuros, aparezcan petrificados misteriosamente por un animal monstruoso.",
     },
     {
         title: "Harry Potter and the Prisoner of Azkaban",
@@ -62,7 +80,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique",
         genreEs: "Película, Aventura, Fantasía",
-        duration: "140 min"
+        duration: "140 min",
+        description : "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black—and turns to sympathetic Professor Lupin for help.",
+        descriptionFr : "Sirius Black, un dangereux sorcier criminel, s'échappe de la sombre prison d'Azkaban avec un seul et unique but : retrouver Harry Potter, en troisième année à l'école de Poudlard. Selon la légende, Black aurait jadis livré les parents du jeune sorcier à leur assassin, Lord Voldemort, et serait maintenant déterminé à tuer Harry...",
+        descriptionEs : "Harry está deseando que termine el verano para comenzar un nuevo curso en Hogwarts, y abandonar lo antes posible la casa de sus despreciables tíos, los Dursley. Lo que desconoce Harry es que va a tener que abandonar Privet Drive antes de tiempo e inesperadamente después de convertir a su tía Marge en un globo gigante. Un autobús noctámbulo, y encantado por supuesto, le llevará a la taberna El Caldero Chorreante, donde le espera nada menos que Cornelius Fudge, el Ministro de Magia.",
     },
     {
         title: "Harry Potter and the Goblet of Fire",
@@ -71,7 +92,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique, Familial",
         genreEs: "Película, Aventura, Fantasía, Familia",
-        duration: "155 min"
+        duration: "155 min",
+        description : "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
+        descriptionFr : "La quatrième année à l'école de Poudlard est marquée par 'le Tournoi des trois sorciers'. Les participants sont choisis par la fameuse "Coupe de feu" qui est à l'origine d'un scandale. Elle sélectionne Harry Potter alors qu'il n'a pas l'âge légal requis ! Accusé de tricherie et mis à mal par une série d'épreuves physiques de plus en plus difficiles, ce dernier sera enfin confronté à Celui dont on ne doit pas prononcer le nom, Lord V.",
+        descriptionEs : "En el cuarto año en Hogwarts, Harry se enfrenta al mayor de los desafíos y peligros de la saga. Cuando es elegido bajo misteriosas circunstancias como el competidor que representará a Hogwarts en el Torneo Triwizard, Harry deberá competir contra los mejores jóvenes magos de toda Europa. Pero mientras se prepara, aparecen pruebas que manifiestan que Lord Voldemort ha regresado. Antes de darse cuenta, Harry no solo estará luchando por el campeonato sino también por su vida",
     },
     {
         title: "Harry Potter and the Half-Blood Prince",
@@ -80,7 +104,10 @@ let listMovie = [
         genre: "Film, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique ",
         genreEs: "Película, Fantasía, Aventura",
-        duration: "153 min"
+        duration: "153 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Harry Potter and the Order of the Phoenix",
@@ -89,7 +116,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique",
         genreEs: "Película, Fantasía, Aventura",
-        duration: "145 min"
+        duration: "145 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Harry Potter and the Deathly Hallows Part 1",
@@ -98,7 +128,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film, Aventure, Fantastique",
         genreEs: "Película, Fantasía, Aventura",
-        duration: "145 min"
+        duration: "145 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Harry Potter and the Deathly Hallows Part 2",
@@ -107,7 +140,10 @@ let listMovie = [
         genre: "Movie, Adventure, Fantasy",
         genreFr: "Film,  Aventure, Fantastique",
         genreEs: "Película, Fantasía, Aventura",
-        duration: "130 min"
+        duration: "130 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Sully",
@@ -116,7 +152,10 @@ let listMovie = [
         genre: "Movie, Drama, History ",
         genreFr: "Film, Drame, Histoire",
         genreEs: "Película, Drama, Historia",
-        duration: "106 min"
+        duration: "106 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Mary Poppins",
@@ -125,7 +164,10 @@ let listMovie = [
         genre: "Movie, Comedy, Family, Fantasy",
         genreFr: "Film, Comédie, Familial, Fantastique",
         genreEs: "Película, Comedia, Familia, Fantasí",
-        duration: "131 min"
+        duration: "131 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Pride & Prejudice",
@@ -134,7 +176,10 @@ let listMovie = [
         genre: "Movie, Drama, Romance",
         genreFr: "Film, Drame, Romance",
         genreEs: "Película, Drama, Romance",
-        duration: "127 min"
+        duration: "127 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "A Star Is Born",
@@ -143,7 +188,10 @@ let listMovie = [
         genre: "Movie, Drama, Romance, Music",
         genreFr: "Film, Drame, Romance, Musique",
         genreEs: "Película, Drama, Romance, Música",
-        duration: "135 min"
+        duration: "135 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "GoodFellas",
@@ -152,7 +200,10 @@ let listMovie = [
         genre: "Movie, Drama, Crime",
         genreFr: "Film, Drame, Crime",
         genreEs: "Drama, Crimen",
-        duration: "141 min"
+        duration: "141 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "2001 A Space Odyssey",
@@ -161,7 +212,10 @@ let listMovie = [
         genre: "Movie, Science Fiction, Mystery, Adventure",
         genreFr: "Film, Science-Fiction, Mystère, Aventure",
         genreEs: "Película, Ciencia ficción, Misterio, Aventura",
-        duration: "158 min"
+        duration: "158 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Fight Club",
@@ -170,7 +224,10 @@ let listMovie = [
         genre: "Movie, Drama",
         genreFr: "Film, Drame",
         genreEs: "Película, Drama",
-        duration: "139 min"
+        duration: "139 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "The Incredibles",
@@ -179,7 +236,10 @@ let listMovie = [
         genre: "Animation, Action, Adventure, Family",
         genreFr: "Animation, Action, Aventure, Familial",
         genreEs: "Animación, Acción, Aventura, Familia",
-        duration: "123 min"
+        duration: "123 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Incredibles 2",
@@ -188,7 +248,10 @@ let listMovie = [
         genre: "Animation, Action, Adventure, Family",
         genreFr: "Animation, Action, Aventure, Familial",
         genreEs: "Animación, Acción, Aventura, Familia",
-        duration: "118 min"
+        duration: "118 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Ponyo",
@@ -197,7 +260,10 @@ let listMovie = [
         genre: "Animation, Family",
         genreFr: "Animation, Familial",
         genreEs: "Animación, Familia",
-        duration: "100 min"
+        duration: "100 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Porco Rosso",
@@ -206,7 +272,10 @@ let listMovie = [
         genre: "Animation, Comedy, Adventure",
         genreFr: "Animation, Comédie, Aventure",
         genreEs: "Animación, Comedia, Aventura,",
-        duration: "93 min"
+        duration: "93 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Interstellar",
@@ -215,7 +284,10 @@ let listMovie = [
         genre: "Movie, Adventure, Drama, Science Fiction",
         genreFr: "Film, Aventure, Drame, Science-Fiction",
         genreEs: "Película, Aventura, Drama, Ciencia ficción",
-        duration: "169 min"
+        duration: "169 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "The Graduate",
@@ -224,7 +296,10 @@ let listMovie = [
         genre: "Movie, Comedy, Drama",
         genreFr: "Film, Comédie, Drame",
         genreEs: "Película, Comedia, Drama",
-        duration: "106 min"
+        duration: "106 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "A Clockwork Orange",
@@ -233,7 +308,10 @@ let listMovie = [
         genre: "Movie, Science Fiction, Drama",
         genreFr: "Film, Science-Fiction, Drame",
         genreEs: "Película, Ciencia ficción, Drama",
-        duration: "136 min"
+        duration: "136 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Colors",
@@ -242,7 +320,10 @@ let listMovie = [
         genre: "Documentary",
         genreFr: "Documentaire",
         genreEs: "Documental",
-        duration: "120 min"
+        duration: "120 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
     {
         title: "Colors",
@@ -251,7 +332,10 @@ let listMovie = [
         genre: "Documentary",
         genreFr: "Documentaire",
         genreEs: "Documental",
-        duration: "120 min"
+        duration: "120 min",
+        description : "description",
+        descriptionFr : "description",
+        descriptionEs : "description",
     },
 ]
 

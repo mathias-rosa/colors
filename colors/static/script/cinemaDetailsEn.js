@@ -9,13 +9,13 @@ for(let movie of listMovie){
         let title = document.querySelector('.title h1');
         let genre = document.querySelector('.genre h1');
         let duration = document.querySelector('.duration h1');
-        //let description = document.querySelector('.description h1');
+        let description = document.querySelector('.description h1');
         let urlCover = "../../../static/img/cinema/" + movie.title + ".jpg";
         cover.setAttribute('src', urlCover );
         listeTitle.textContent = movie.title;
         title.textContent = movie.title;
         genre.textContent = movie.genre;
         duration.textContent = movie.duration;
-        //description.textContent = movie.descriptionFr;
+        description.textContent = movie.description;
     }
 }
