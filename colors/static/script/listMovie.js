@@ -1,5 +1,4 @@
 
-
 let listMovie = [
     {
         title: "Frozen",
@@ -12,6 +11,7 @@ let listMovie = [
         description : "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
         descriptionFr : "Anna, une jeune fille aussi audacieuse qu’optimiste, se lance dans un incroyable voyage en compagnie de Kristoff, un montagnard expérimenté, et de son fidèle renne, Sven à la recherche de sa sœur, Elsa, la Reine des neiges qui a plongé le royaume d’Arendelle dans un hiver éternel… En chemin, ils vont rencontrer de mystérieux trolls et un drôle de bonhomme de neige nommé Olaf, braver les conditions extrêmes des sommets escarpés et glacés, et affronter la magie qui les guette à chaque pas.",
         descriptionEs : "Cuando una profecía condena a un reino a un invierno eterno, Anna, una joven optimista se une a un temerario montañero llamado Kristoff y a su compinche el reno Sven. Juntos emprenden un viaje épico en busca de Elsa, hermana de Anna y Reina de las Nieves para poner fin al gélido hechizo.",
+        TMDB_id: "109445",
     },
     {
         title: "Frozen II",
@@ -24,6 +24,7 @@ let listMovie = [
         description : "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
         descriptionFr : "Elsa, Anna, Kristoff, Olaf et Sven voyagent bien au-delà des portes d’Arendelle à la recherche de réponses sur le passé d'Elsa. Cette dernière rencontre un Nokk – un esprit d’eau mythique prenant la forme d’un cheval - qui utilise le pouvoir de l’océan pour protéger les secrets de la forêt.",
         descriptionEs : "¿Por qué nació Elsa con poderes mágicos? La respuesta le está llamando y amenaza su reino. Junto con Anna, Kristoff, Olaf y Sven emprenderá un viaje peligroso e inolvidable. En 'Frozen: El Reino del Hielo', Elsa temía que sus poderes fueran demasiado para el mundo. En 'Frozen 2', deseará que sean suficientes.",
+        TMDB_id: "330457",
     },
     {
         title: "Don't Look Now We're Being Shot At",
@@ -36,18 +37,7 @@ let listMovie = [
         description : "During World War II, two French civilians and a downed British Bomber Crew set out from Paris to cross the demarcation line between Nazi-occupied Northern France and the South. From there they will be able to escape to England. First, they must avoid German troops - and the consequences of their own blunders.",
         descriptionFr : "En 1942, un avion anglais est abattu par les Allemands au-dessus de Paris. Les trois pilotes sautent en parachute et atterrissent dans différents endroits de la capitale. Ils sont aidés par deux civils français, un chef d'orchestre et un peintre en bâtiment qui acceptent de les mener en zone libre; ils deviennent ainsi, malgré eux, acteurs de la Résistance.",
         descriptionEs : "Segunda Guerra Mundial (1939-1945). Parodia de la ocupación de Francia por los alemanes. Terry-Thomas es un piloto inglés que se encuentra perdido en la Francia ocupada, mientras que Bourvil y Louis de Funès son dos parisinos que, casi involuntariamente, ayudan a la resistencia contra los nazis. Un film que en Francia obtuvo un enorme éxito de taquilla.",
-    },
-    {
-        title: "Star Wars",
-        titleFr: "Star Wars",
-        titleEs: "Star Wars",
-        genre: "Adventure, Action, Science Fiction",
-        genreFr: "Film, Aventure, Action, Science Fiction",
-        genreEs: "Película, Aventura, Acción, Ciencia Ficción",
-        duration: "121 min",
-        description : "description",
-        descriptionFr : "description",
-        descriptionEs : "description",
+        TMDB_id: "8290",
     },
     {
         title: "Harry Potter and the Philosopher's Stone",
@@ -60,6 +50,7 @@ let listMovie = [
         description : "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
         descriptionFr : "Orphelin, Harry Potter a été recueilli en bas âge par sa tante Pétunia et son oncle Vernon, deux abominables créatures qui, depuis dix ans, prennent un malin plaisir à l’humilier, le houspiller et le malmemer. Contraint de se nourrir de restes et de dormir dans un placard infesté d’araignées, le malheureux est en butte à l’hostilité de son cousin Dudley, obèse imbécile qui ne manque pas une occasion de le rouer de coups. L’année de ses 11 ans, Harry ne s’attend pas à recevoir de cadeaux, pourtant cette année là, une lettre mystérieuse va lui parvenir qui va changer son existence...",
         descriptionEs : "Harry Potter es un huérfano que vive con sus desagradables tíos, los Dursley, y su repelente primo Dudley. Se acerca su undécimo cumpleaños y tiene pocas esperanzas de recibir algún regalo, ya que nunca nadie se acuerda de él. Sin embargo, pocos días antes de su cumpleaños, una serie de misteriosas cartas dirigidas a él y escritas con una estridente tinta verde rompen la monotonía de su vida: Harry es un mago y sus padres también lo eran.",
+        TMDB_id: "671",
     },
     {
         title: "Harry Potter and the Chamber of Secrets",
@@ -72,6 +63,7 @@ let listMovie = [
         description : "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
         descriptionFr : "Alors que l'oncle Vernon, la tante Pétunia et son cousin Dudley reçoivent d'importants invités à dîner, Harry Potter est contraint de passer la soirée dans sa chambre. Dobby, un elfe, fait alors son apparition. Il lui annonce que de terribles dangers menacent l'école de Poudlard et qu'il ne doit pas y retourner en septembre. Harry refuse de le croire. Mais sitôt la rentrée des classes effectuée, ce dernier entend une voix malveillante. Celle-ci lui dit que la redoutable et légendaire Chambre des Secrets est à nouveau ouverte, permettant ainsi à l'héritier de Serpentard de semer le chaos à Poudlard. Les victimes, retrouvées pétrifiées par une force mystérieuse, se succèdent dans les couloirs de l'école, sans que les professeurs - pas même le populaire Gilderoy Lockhart - ne parviennent à endiguer la menace. Aidé de Ron et Hermione, Harry doit agir au plus vite pour sauver Poudlard.",
         descriptionEs : "Harry regresa a su segundo año a Hogwarts, pero descubre que cosas malas ocurren debido a que un sitio llamado la Cámara de los Secretos ha sido abierto por el heredero de Slytherin y hará que los hijos de muggles, los impuros, aparezcan petrificados misteriosamente por un animal monstruoso.",
+        TMDB_id: "672",
     },
     {
         title: "Harry Potter and the Prisoner of Azkaban",
@@ -84,6 +76,7 @@ let listMovie = [
         description : "Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black—and turns to sympathetic Professor Lupin for help.",
         descriptionFr : "Sirius Black, un dangereux sorcier criminel, s'échappe de la sombre prison d'Azkaban avec un seul et unique but : retrouver Harry Potter, en troisième année à l'école de Poudlard. Selon la légende, Black aurait jadis livré les parents du jeune sorcier à leur assassin, Lord Voldemort, et serait maintenant déterminé à tuer Harry...",
         descriptionEs : "Harry está deseando que termine el verano para comenzar un nuevo curso en Hogwarts, y abandonar lo antes posible la casa de sus despreciables tíos, los Dursley. Lo que desconoce Harry es que va a tener que abandonar Privet Drive antes de tiempo e inesperadamente después de convertir a su tía Marge en un globo gigante. Un autobús noctámbulo, y encantado por supuesto, le llevará a la taberna El Caldero Chorreante, donde le espera nada menos que Cornelius Fudge, el Ministro de Magia.",
+        TMDB_id: "673",
     },
     {
         title: "Harry Potter and the Goblet of Fire",
@@ -96,6 +89,7 @@ let listMovie = [
         description : "Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure – but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for.",
         descriptionFr : "La quatrième année à l'école de Poudlard est marquée par 'le Tournoi des trois sorciers'. Les participants sont choisis par la fameuse 'Coupe de feu' qui est à l'origine d'un scandale. Elle sélectionne Harry Potter alors qu'il n'a pas l'âge légal requis ! Accusé de tricherie et mis à mal par une série d'épreuves physiques de plus en plus difficiles, ce dernier sera enfin confronté à Celui dont on ne doit pas prononcer le nom, Lord V.",
         descriptionEs : "En el cuarto año en Hogwarts, Harry se enfrenta al mayor de los desafíos y peligros de la saga. Cuando es elegido bajo misteriosas circunstancias como el competidor que representará a Hogwarts en el Torneo Triwizard, Harry deberá competir contra los mejores jóvenes magos de toda Europa. Pero mientras se prepara, aparecen pruebas que manifiestan que Lord Voldemort ha regresado. Antes de darse cuenta, Harry no solo estará luchando por el campeonato sino también por su vida",
+        TMDB_id: "674",
     },
     {
         title: "Harry Potter and the Half-Blood Prince",
@@ -108,6 +102,7 @@ let listMovie = [
         description : "As Harry begins his sixth year at Hogwarts, he discovers an old book marked as 'Property of the Half-Blood Prince', and begins to learn more about Lord Voldemort's dark past.",
         descriptionFr : "Voldemort a renforcé son emprise sur le monde des sorciers aussi bien que sur celui des Moldus, et Poudlard n’est plus un endroit sûr. Harry est d’ailleurs persuadé que le danger rôde à l’intérieur même de l’école mais Dumbledore est plus soucieux de le préparer pour la bataille finale qu’il sent approcher à grands pas. Ensemble, ils tentent de trouver le talon d’Achille de Voldemort et, à cette fin, Dumbledore fait appel au Professeur Horace Slughorn, qui détient des informations cruciales.",
         descriptionEs : "En medio de los desastres que azotan a Inglaterra, Harry y sus compañeros vuelven a Hogwarts para cursar su sexto año de estudios; y aunque las medidas de seguridad han convertido al colegio en una fortaleza, algunos estudiantes son víctimas de ataques inexplicables. Harry sospecha que Draco Malfoy es el responsable de los mismos y decide averiguar la razón. Mientras tanto, Albus Dumbledore y el protagonista exploran el pasado de Lord Voldemort mediante recuerdos que el director ha recolectado. Con esto, Dumbledore planea preparar al muchacho para el día de la batalla final.",
+        TMDB_id: "767",
     },
     {
         title: "Harry Potter and the Order of the Phoenix",
@@ -120,6 +115,7 @@ let listMovie = [
         description : "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students – dubbed 'Dumbledore's Army' – to defend themselves against the dark arts",
         descriptionFr : "Alors qu'il entame sa cinquième année d'étude à Poudlard, Harry Potter découvre qu'une bonne partie de la communauté des sorciers feint d'ignorer sa récente confrontation avec Lord Voldemort, et préfèrent nier cette aveuglante évidence : le Seigneur des Ténèbres est bel et bien vivant. De plus, la communauté magique lit les mensonges de Rita Skeeter dans la Gazette du Sorcier sous contrôle du Ministère de la Magie. Craignant que le puissant Albus Dumbledore ne mente à propos du retour de Voldemort dans le but de saper son autorité et de lui ravir son poste, le Ministre de la Magie Cornélius Fudge nomme un nouveau Professeur de Défense contre les Forces du Mal, qu'il charge de surveiller le vieux doyen et ses étudiants. Mais celle-ci, Dolores Ombrage, se révèle incapable de préparer les collégiens à affronter les nouvelles menaces qui planent sur Poudlard...",
         descriptionEs : "Harry Potter regresa por quinto año a Hogwarts aún sacudido por la tragedia ocurrida en el Torneo de los Tres Magos. Debido a que el Ministro de la Magia niega el regreso de Lord Voldemort, Harry se convierte en el centro de atención de la comunidad mágica. Mientras lucha con sus problemas en el colegio, incluyendo a la nueva profesora Dolores Umbridge, intentará aprender más sobre la misteriosa Orden del Fénix.",
+        TMDB_id: "675",
     },
     {
         title: "Harry Potter and the Deathly Hallows Part 1",
@@ -132,6 +128,7 @@ let listMovie = [
         description : "Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort's bid for immortality. But with Harry's beloved Dumbledore dead and Voldemort's unscrupulous Death Eaters on the loose, the world is more dangerous than ever.",
         descriptionFr : "Le pouvoir de Voldemort s'étend. Celui-ci contrôle maintenant le Ministère de la Magie et Poudlard. Harry, Ron et Hermione décident de terminer le travail commencé par Dumbledore, et de retrouver les derniers Horcruxes pour vaincre le Seigneur des Ténèbres. Mais il reste bien peu d'espoir aux trois sorciers, qui doivent réussir à tout prix.",
         descriptionEs : "Una tarea casi imposible cae sobre los hombros de Harry: deberá encontrar y destruir los horrocruxes restantes para dar fin al reinado de Lord Voldemort. En el episodio final de la saga, el hechicero de 17 años parte junto con sus amigos Hermione Granger y Ron Weasley en un peligroso viaje por Inglaterra para encontrar los objetos que contienen los fragmentos del alma del Señor Tenebroso, los cuales garantizan su longevidad. Pero el camino no será fácil pues el lado oscuro adquiere más poder con cada minuto que pasa y las lealtades serán puestas a prueba. Harry deberá usar todos los conocimientos que gracias a Dumbledore ha adquirido sobre su enemigo para poder encontrar la forma de sobrevivir a esta última aventura.",
+        TMDB_id: "12444",
     },
     {
         title: "Harry Potter and the Deathly Hallows Part 2",
@@ -144,6 +141,7 @@ let listMovie = [
         description : "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
         descriptionFr : "Le combat entre les puissances du bien et du mal de l’univers des sorciers se transforme en guerre sans merci. L’école Poudlard est désormais sous la coupe du professeur Rogue et des force des ténèbres. Les enjeux sont devenus considérables et personne n’est plus en sécurité alors que se rapproche l’ultime épreuve de force avec Voldemort...",
         descriptionEs : "La segunda parte de la batalla final entre las fuerzas del bien y el mal. El juego nunca ha sido tan peligroso y nadie está a salvo. Se acerca el momento de la confrontación final entre Harry Potter y Lord Voldemort. Todo termina aquí…",
+        TMDB_id: "12445",
     },
     {
         title: "Sully",
@@ -156,6 +154,7 @@ let listMovie = [
         description : "On 15 January 2009, the world witnessed the 'Miracle on the Hudson' when Captain 'Sully' Sullenberger glided his disabled plane onto the frigid waters of the Hudson River, saving the lives of all 155 aboard. However, even as Sully was being heralded by the public and the media for his unprecedented feat of aviation skill, an investigation was unfolding that threatened to destroy his reputation and career.",
         descriptionFr : "Le 15 janvier 2009, l'incroyable se produit : un avion qui vient de subir une terrible avarie réussit à se poser sans encombre sur les eaux glacées du fleuve Hudson, au large de Manhattan. Bilan : les 155 passagers ont la vie sauve ! Un exploit hors du commun accompli par le commandant « Sully » Sullenberger et bientôt relayé par les médias et l'opinion publique. Partout dans le pays, la presse s'empare du « miracle sur l'Hudson ». Et pourtant, alors même que le pilote est salué comme un héros, une enquête est diligentée qui menace sa réputation et sa carrière…",
         descriptionEs : "Chesley “Sully” Sullenberger es un piloto comercial que en 2009 se convirtió en un héroe cuando, al poco de despegar, su avión se averió y el comandante logró realizar un aterrizaje forzoso del aparato en pleno río Hudson, en Nueva York, con 155 pasajeros a bordo.",
+        TMDB_id: "363676",
     },
     {
         title: "Mary Poppins",
@@ -168,6 +167,7 @@ let listMovie = [
         description : "A magical nanny employs music and adventure to help two neglected children become closer to their father.",
         descriptionFr : "Rien ne va plus dans la famille Banks. La nurse vient de donner ses huit jours. Et ni M. Banks, banquier d'affaire, ni son épouse, suffragette active, ne peuvent s'occuper des enfants Jane et Michaël. Ces derniers passent alors une annonce tout à fait fantaisiste pour trouver une nouvelle nurse. C'est Mary Poppins qui répond et apparaît dès le lendemain, portée par le vent d'Est. Elle entraîne aussitôt les enfants dans son univers merveilleux. Un des plus célèbres films de la production Disney.",
         descriptionEs : "Reinado de Eduardo VII (1901-1910). Una familia inglesa formada por un padre banquero, una madre sufragista y dos niños rebeldes -que pretenden llamar la atención de su padre haciendo la vida imposible a todas las niñeras-, se verá alterada con la llegada de Mary Poppins, una institutriz muy especial, que desciende de las nubes empleando su paraguas como paracaídas. Debut y Oscar para Julie Andrews en este clásico del cine familiar que en su día batió récords de taquilla. Una niñera mágica y canciones pegadizas que harán las delicias de los más pequeños de la casa.",
+        TMDB_id: "433",
     },
     {
         title: "Pride & Prejudice",
@@ -180,6 +180,7 @@ let listMovie = [
         description : "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
         descriptionFr : "Elizabeth Bennet, 20 ans, est la seconde fille de Mr et Mrs Bennet. Elle grandit aux cotés de ses quatre autres sœurs et affectionne particulièrement Jane, de deux ans son aînée. Cette dernière est réputée pour sa douceur et sa beauté dans toute la ville de Meryton. Elizabeth, quant à elle, est une jeune fille ravissante, vive d'esprit, aimant observer la société dans laquelle elle évolue mais aimant surtout se moquer des sottises d'autrui. La famille Bennet est simple et très liée, faisant fi de certaines convenances exigée par l'étiquette à l'époque de Jane Austen. Mrs Bennet n'a qu'une idée en tête : marier ses cinq filles afin d'assurer leur avenir ainsi que celui de toute la famille.",
         descriptionEs : "Las cinco hermanas Bennet han sido criadas por una madre obsesionada por encontrarles marido. Pero una de ellas, Lizzie, inteligente y con carácter, desea una vida con perspectivas más abiertas, un anhelo respaldado por su padre. Cuando el señor Bingley, un soltero rico, y su círculo de sofisticados amigos se instalan en una mansión vecina para pasar el verano, las Bennett se entusiasman con la posibilidad de encontrar pretendientes. En el baile de bienvenida, Lizzie conoce al apuesto y elegante señor Darcy, pero, a primera vista, le parece demasiado orgulloso y arrogante.",
+        TMDB_id: "4348",
     },
     {
         title: "A Star Is Born",
@@ -192,6 +193,7 @@ let listMovie = [
         description : "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
         descriptionFr : "Star de country un peu oubliée, Jackson Maine découvre Ally, une jeune chanteuse très prometteuse. Tandis qu'ils tombent follement amoureux l'un de l'autre, Jack propulse Ally sur le devant de la scène et fait d'elle une artiste adulée par le public. Bientôt éclipsé par le succès de la jeune femme, il vit de plus en plus mal son propre déclin…",
         descriptionEs : "Jackson Maine (Bradley Cooper) es una estrella consagrada de la música que una noche conoce y se enamora de Ally (Lady Gaga), una joven artista que lucha por salir adelante en el mundo del espectáculo. Justo cuando Ally está a punto de abandonar su sueño de convertirse en cantante, Jack decide ayudarla en su carrera hacia la fama. Pero el camino será más duro de lo que imagina.",
+        TMDB_id: "332562",
     },
     {
         title: "GoodFellas",
@@ -204,6 +206,7 @@ let listMovie = [
         description : "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
         descriptionFr : "Brooklyn, dans les années 50. Depuis l'enfance, le jeune Henry Hill rêve de devenir gangster. A 16 ans, il se met en selle auprès de Paul Cicero, un caïd local, et commet ses premiers délits. Arrêté et interrogé, il refuse de parler et gagne ainsi le respect du milieu. A sa sortie de prison, il fait la connaissance de James Conway et de Tommy DeVito, deux truands d'une extrême violence, et se lance avec eux dans des trafics de grande envergure. Karen, une jeune bourgeoise qu'il courtise et finit par épouser, ne devine sa profession qu'après être passée devant l'officier d'état-civil. Grisé par le succès, Henry multiplie les coups les plus audacieux...",
         descriptionEs : "Henry, un niño de trece años de Brooklyn, vive fascinado con el mundo de los gángsters. Su sueño se hace realidad cuando entra a formar parte de la familia Pauline, dueña absoluta de la zona, que lo educan como un miembro más de la banda convirtiéndole en un destacado mafioso.",
+        TMDB_id: "769",
     },
     {
         title: "2001 A Space Odyssey",
@@ -216,6 +219,7 @@ let listMovie = [
         description : "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
         descriptionFr : "Aux temps préhistoriques, une petite tribu d’hommes-singes intallée au milieu de rochers arides lutte difficilement pour la vie. Un matin, ils trouvent devant eux une mystérieuse dalle noire monolitique. L’un des singes touche la pierre et apprend alors à se servir d’un os de quadrupède pour tuer ses ennemis... Quatre millions d’années plus tard, en 2001, un savant de l’espace, le Dr Heywood Floyd, débarque sur la lune pour examiner une dalle noire semblable à celle des singes, qui était enterrée sous la surface de l’astre, selon les premières observations, l'objet émettrait un signal mystérieux...",
         descriptionEs : "La historia de la humanidad, en diversos estadios del pasado y del futuro, es narrada en la película de ciencia-ficción de culto por excelencia de la historia del cine. Hace millones de años, en los albores del nacimiento del homo sapiens, unos simios descubren un monolito que les lleva a un estadio de inteligencia superior. Otro monolito vuelve a aparecer, millones de años después, enterrado en una luna, lo que provoca el interés de los científicos humanos. Por último, HAL 9000, una máquina de inteligencia artificial, es la encargada de todos los sistemas de una nave espacial tripulada durante una misión de la NASA.",
+        TMDB_id: "62",
     },
     {
         title: "Fight Club",
@@ -228,6 +232,7 @@ let listMovie = [
         description : "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground 'fight clubs' forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
         descriptionFr : "Le narrateur, sans identité précise, vit seul, travaille seul, dort seul, mange seul ses plateaux-repas pour une personne comme beaucoup d’autres personnes seules qui connaissent la misère humaine, morale et sexuelle. C’est pourquoi il va devenir membre du Fight club, un lieu clandestin où il va pouvoir retrouver sa virilité, l’échange et la communication. Ce club est dirigé par Tyler Durden, une sorte d’anarchiste entre gourou et philosophe qui prêche l’amour de son prochain.",
         descriptionEs : "Un joven sin ilusiones lucha contra su insomnio, consecuencia quizás de su hastío por su gris y rutinaria vida. En un viaje en avión conoce a Tyler Durden, un carismático vendedor de jabón que sostiene una filosofía muy particular: el perfeccionismo es cosa de gentes débiles; en cambio, la autodestrucción es lo único que hace que realmente la vida merezca la pena. Ambos deciden entonces formar un club secreto de lucha donde descargar sus frustaciones y su ira que tendrá un éxito arrollador.",
+        TMDB_id: "550",
     },
     {
         title: "The Incredibles",
@@ -240,6 +245,7 @@ let listMovie = [
         description : "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
         descriptionFr : "Ayant raccroché leurs costumes quinze ans plus tôt, Bob, ex-Mr. Indestructible et sa femme, Hélène, ex-Elastigirl, sont rentrés dans le rang et s'efforcent de mener une vie normale avec leurs trois enfants. Mais l'occasion de repasser à l'action va se présenter pout Bob lorsqu'une mystérieuse convocation l'appelle sur une île lointaine pour une mission top-secrète.",
         descriptionEs : "Una familia de superhéroes casi retirados, algo entraditos en años y kilos, que tratan de sobrevivir en la dura vida diaria, son obligados a volver a la acción... simplemente para salvar al mundo. Bob Paar solía ser uno de los más grandes superhéroes del mundo (también se le conocía como 'Mr. Increíble'), salvaba vidas y luchaba contra villanos a diario. Han pasado 15 años, y Bob y su mujer (una famosa ex-superheroína por derecho propio) han adoptado una identidad civil y se han retirado a la periferia para llevar una vida normal con sus tres hijos. Bob se dedica a comprobar los plazos de las reclamaciones de seguros y lucha contra el aburrimiento y los michelines. Está deseando volver a entrar en acción, así que cuando recibe una misteriosa comunicación que le ordena dirigirse a una remota isla para cumplir una misión de alto secreto, no se lo piensa dos veces.",
+        TMDB_id: "9806",
     },
     {
         title: "Incredibles 2",
@@ -252,6 +258,7 @@ let listMovie = [
         description : "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
         descriptionFr : "Notre famille de super-héros préférée est de retour! Cette fois c’est Hélène qui se retrouve sur le devant de la scène laissant à Bob le soin de mener à bien les mille et une missions de la vie quotidienne et de s’occuper de Violette, Flèche et de bébé Jack-Jack. C’est un changement de rythme difficile pour la famille d’autant que personne ne mesure réellement l’étendue des incroyables pouvoirs du petit dernier… Lorsqu’un nouvel ennemi fait surface, la famille et Frozone vont devoir s’allier comme jamais pour déjouer son plan machiavélique.",
         descriptionEs : "Helen tiene que liderar una campaña para que los superhéroes regresen, mientras Bob vive su vida 'normal' con Violet, Dash y el bebé Jack-Jack —cuyos superpoderes descubriremos—. Su misión se va a pique cuando aparece un nuevo villano con un brillante plan que lo amenaza todo. Pero los Parr no se amedrentarán y menos teniendo a Frozone de su parte.",
+        TMDB_id: "260513",
     },
     {
         title: "Ponyo",
@@ -264,6 +271,7 @@ let listMovie = [
         description : "The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.",
         descriptionFr : "Le petit Sosuke, cinq ans, habite un village construit au sommet d'une falaise qui surplombe la Mer Intérieure. Un beau matin, alors qu'il joue sur la plage en contrebas, il découvre une petite fille poisson rouge nommée Ponyo, piégée dans un pot de confiture. Sosuke la sauve, et décide de la garder avec lui dans un seau. Ponyo est aussi fascinée par Sosuke que ce dernier l'est par elle. Le petit garçon lui promet de la protéger et de s'occuper d'elle, mais le père de Ponyo, Fujimoto - un sorcier autrefois humain qui vit tout au fond de la mer - la force à revenir avec lui dans les profondeurs. Bien décidée à devenir humaine, Ponyo s'échappe pour retrouver Sosuke. Mais avant de prendre la fuite, elle répand l'élixir magique de Fujimoto, l'Eau de la Vie, dans l'océan. Le niveau de la mer s'élève, et les sœurs de Ponyo sont transformées en vagues gigantesques qui montent jusqu'à la maison de Sosuke sur la falaise, et engloutissent le village...",
         descriptionEs : "La historia se centra en Sosuke, un niño de 5 años, y su relación con una princesa pez que ansía convertirse en un ser humano. Libre adaptación de 'La sirenita' que obtuvo muy buena acogida de la crítica en el Festival de Venecia 2008.",
+        TMDB_id: "12429",
     },
     {
         title: "Porco Rosso",
@@ -276,6 +284,7 @@ let listMovie = [
         description : "Porco Rosso, known in Japan as Crimson Pig (Kurenai no Buta) is the sixth animated film by Hayao Miyazaki and released in 1992. You're introduced to an Italian World War I fighter ace, now living as a freelance bounty hunter chasing 'air pirates' in the Adriatic Sea. He has been given a curse that changed his head to that of a pig. Once called Marco Pagot, he is now known to the world as 'Porco Rosso', Italian for 'Red Pig.'",
         descriptionFr : "Dans l'entre-deux-guerres quelque part en Italie, le pilote Marco, aventurier solitaire, vit dans le repaire qu'il a établi sur une île déserte de l'Adriatique. À bord de son splendide hydravion rouge, il vient en aide aux personnes en difficulté.",
         descriptionEs : "Periodo de entreguerras. Porco es un cerdo aviador que fustra todos los actos de piratería perpetrados por los piratas aéreos del Adriático. Éstos, decididos a acabar con el valiente y hábil Porco, se unen para contratar a un aventurero americano que le elimine de los aires donde las mafias operan",
+        TMDB_id: "11621",
     },
     {
         title: "Interstellar",
@@ -288,6 +297,7 @@ let listMovie = [
         description : "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
         descriptionFr : "Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque-là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.",
         descriptionEs : "Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.",
+        TMDB_id: "157336",
     },
     {
         title: "The Graduate",
@@ -300,6 +310,7 @@ let listMovie = [
         description : "Benjamin, a recent college graduate very worried about his future, finds himself in a love triangle with an older woman and her daughter.",
         descriptionFr : "Benjamin Braddock vient d’achever ses études couvert de diplômes. Au cours d’une réception organisée par ses parents, il rencontre Mme Robinson, une amie de ces derniers. Elle séduit le jeune homme, lui faisant découvrir les plaisirs de l’amour. Les parents de Benjamin, qui ignorent tout de cette relation, incitent bientôt leur fils à sortir avec Elaine, la fille des Robinson. Réticent au début, il s’attache rapidement à l'étudiante…",
         descriptionEs : "Benjamin Braddock (Dustin Hoffman) vuelve a casa después de terminar sus estudios universitarios. Es un joven que alberga un gran rencor contra la hipocresía y la corrupción de la sociedad que lo rodea. La señora Robinson (Anne Bancroft), una amiga de la familia, se encapricha de él y lo hace su amante. Pero cuando Benjamin conoce a Elaine (Katharine Ross), la hija de la señora Robinson, todo se complica...",
+        TMDB_id: "37247",
     },
     {
         title: "A Clockwork Orange",
@@ -312,6 +323,33 @@ let listMovie = [
         description : "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
         descriptionFr : "Au XXIème siècle, où règnent la violence et le sexe, Alex, jeune chef de bande, exerce avec sadisme une terreur aveugle. Après son emprisonnement, des psychanalystes l'emploient comme cobaye dans des expériences destinées à juguler la criminalité...",
         descriptionEs : "Gran Bretaña, en un futuro indeterminado. Alex (Malcolm McDowell) es un joven muy agresivo que tiene dos pasiones: la violencia desaforada y Beethoven. Es el jefe de la banda de los drugos, que dan rienda suelta a sus instintos más salvajes apaleando, violando y aterrorizando a la población. Cuando esa escalada de terror llega hasta el asesinato, Alex es detenido y, en prisión, se someterá voluntariamente a una innovadora experiencia de reeducación que pretende anular drásticamente cualquier atisbo de conducta antisocial.",
+        TMDB_id: "185",
+    },
+    {
+        title: "About Time",
+        titleFr: "Il était temps",
+        titleEs: "Una cuestión de tiempo",
+        genre: "Movie, Comedy, Drama, Romance, Fantasy",
+        genreFr: "Film, Comédie, Drame, Romance, Fantastique",
+        genreEs: "Película, Comedia, Drama, Romance, Fantasía",
+        duration: "123 min",
+        description : "The night after another unsatisfactory New Year party, Tim's father tells his son that the men in his family have always had the ability to travel through time. Tim can't change history, but he can change what happens and has happened in his own life – so he decides to make his world a better place... by getting a girlfriend. Sadly, that turns out not to be as easy as he thinks.",
+        descriptionFr : "À 21 ans révolus, Tim Lake découvre qu'il a le pouvoir de voyager dans le temps... Au lendemain d'un réveillon de jour de l'an encore décevant, le père de Tim révèle à son fils que tous les hommes de la famille ont, depuis toujours, la faculté de voyager dans le temps. Tim ne peut pas changer le cours de l'histoire mais il peut changer ce qui se passe et s'est passé dans sa vie. Il décide d'améliorer son existence... en se trouvant une petite amie.",
+        descriptionEs : "La trama de la película gira en torno a un joven llamado Tim Lake. El protagonista y su familia tienen el curioso don de poder viajar a través del tiempo. Al descubrir esta cualidad, Tim empieza a beneficiarse de ello para cambiar diferentes aspectos de su vida. Se enamora de una chica, Mary, a la que conoce tras transladarse a vivir a Londres por motivos de trabajo. Su historia de amor se verá beneficiada gracias al don de Tim, sin embargo, el protagonista no tardará en darse cuenta de que su habilidad no es capaz de ampararle en algunos problemas y cuestiones familiares.",
+        TMDB_id: "122906",
+    },
+    {
+        title: "The Intern",
+        titleFr: "Le Nouveau Stagiaire",
+        titleEs: "El becario",
+        genre: "Movie, Comedy",
+        genreFr: "Film, Comédie",
+        genreEs: "Película, Comedia",
+        duration: "121 min",
+        description : "70-year-old widower Ben Whittaker has discovered that retirement isn't all it's cracked up to be. Seizing an opportunity to get back in the game, he becomes a senior intern at an online fashion site, founded and run by Jules Ostin.",
+        descriptionFr : "Ben Whittaker, un veuf de 70 ans s'aperçoit que la retraite ne correspond pas vraiment à l'idée qu'il s'en faisait. Dès que l'occasion se présente de reprendre du service, il accepte un poste de stagiaire sur un site Internet de mode, créé et dirigé par Jules Ostin.",
+        descriptionEs : "La joven dueña de un exitoso negocio online dedicado a la moda no se toma demasiado bien el hecho de que la compañía contrate como becario a un hombre de 70 años, pero eso irá cambiando progresivamente, ya que poco a poco el hombre comienza a convertirse en alguien indispensable.",
+        TMDB_id: "257211",
     },
     {
         title: "Colors",
@@ -324,18 +362,7 @@ let listMovie = [
         description : "description",
         descriptionFr : "description",
         descriptionEs : "description",
-    },
-    {
-        title: "Colors",
-        titleFr: "Colors",
-        titleEs: "Colors",
-        genre: "Documentary",
-        genreFr: "Documentaire",
-        genreEs: "Documental",
-        duration: "120 min",
-        description : "description",
-        descriptionFr : "description",
-        descriptionEs : "description",
+        TMDB_id: "",
     },
 ]
 

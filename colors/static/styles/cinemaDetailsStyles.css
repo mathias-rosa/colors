@@ -175,3 +175,23 @@ body{
     font-size: 1vh;
     align-items: flex-start;
 }
+.trailerbox{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    background-color: rgba(89, 89, 89, 0.4);
+    backdrop-filter: blur(5px);
+}
+.trailer{
+    background-color: white;
+    width: 120vh;
+    height: 85vh;
+    border-radius: 5px;;
+}
+.trailer iframe{
+    border-radius: 5px;;
+}
