@@ -362,7 +362,7 @@ let listMovie = [
         description : "description",
         descriptionFr : "description",
         descriptionEs : "description",
-        TMDB_id: "",
+        TMDB_id: "none",
     },
 ]
 

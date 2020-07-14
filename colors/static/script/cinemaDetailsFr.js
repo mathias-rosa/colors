@@ -2,6 +2,8 @@ import listMovie from './listMovie.js'
 
 let movie_title = document.querySelector(".flaskvariable").textContent;
 
+let player = document.querySelector('#player');
+let urlTrailer;
 
 for(let movie of listMovie){
     if (movie.title === movie_title){
@@ -18,6 +20,7 @@ for(let movie of listMovie){
         genre.textContent = movie.genreFr;
         duration.textContent = movie.duration;
         description.textContent = movie.descriptionFr;
+            
         async function request(){
             let TMDB_api_key = "5d6bf29b8d5dc0dddb07efa12631141a";
             let urlR = "https://api.themoviedb.org/3/movie/" + movie.TMDB_id + "/videos?api_key=" + TMDB_api_key + "&language=fr-FR";
@@ -29,13 +32,17 @@ for(let movie of listMovie){
                 console.log(err);
             });
         };
+        
         async function ytid() {
             let varytid = await request();
-            let urlTrailer = "https://www.youtube.com/embed/" + varytid.results[0].key;
-            let player = document.querySelector('#player');
-            player.setAttribute('src', urlTrailer);
+            if (varytid.results === undefined || varytid.results[0] === undefined || varytid.results[0].key === undefined){
+                urlTrailer = "https://www.youtube.com/embed/"
+            }else{
+                urlTrailer = "https://www.youtube.com/embed/" + varytid.results[0].key;
+            }
         };
         ytid();
+
     }
 }
 
@@ -44,11 +51,10 @@ let trailerbox = document.querySelector('.trailerbox');
 
 div_btn_un.addEventListener('click', () => {
     trailerbox.style.display = "flex";
+    player.setAttribute('src', urlTrailer);
 });
 
 trailerbox.addEventListener('click', () => {
     trailerbox.style.display = "none";
-    let player = document.querySelector('#player');
-    player.pauseVideo();
-    
+    player.setAttribute('src', "");
 });
