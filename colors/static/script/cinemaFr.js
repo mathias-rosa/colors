@@ -18,55 +18,59 @@ function compare(a, b) {
 
 
 const appBox = document.getElementsByClassName("app_box")[0];
-  
-    for (let movie of listMovie) {
-        let divMovie =  document.createElement("a");
-        let divInfoMovie = document.createElement("div");
-        let imgMovieCover = document.createElement("img")
-        let imgPlay = document.createElement("img")
-        let divAllMovieInfo = document.createElement("div");
-        let divSmallMovieInfo = document.createElement("div");
-        let txtMovieTitle = document.createElement("h1");
-        let txtMovieGenre = document.createElement("h2");
-        let txtMovieSlash = document.createElement("h2");
-        let txtMovieDuration = document.createElement("h2");
 
-        appBox.appendChild(divMovie);
-        divMovie.appendChild(divInfoMovie);
+function renderMovieList(){
+  for (let movie of listMovie) {
+    let divMovie =  document.createElement("a");
+    let divInfoMovie = document.createElement("div");
+    let imgMovieCover = document.createElement("img")
+    let imgPlay = document.createElement("img")
+    let divAllMovieInfo = document.createElement("div");
+    let divSmallMovieInfo = document.createElement("div");
+    let txtMovieTitle = document.createElement("h1");
+    let txtMovieGenre = document.createElement("h2");
+    let txtMovieSlash = document.createElement("h2");
+    let txtMovieDuration = document.createElement("h2");
 
-        divInfoMovie.appendChild(divAllMovieInfo);
+    appBox.appendChild(divMovie);
+    divMovie.appendChild(divInfoMovie);
 
-        divAllMovieInfo.appendChild(txtMovieTitle);
-        txtMovieTitle.innerHTML = "<span>" + movie.titleFr + "</span>";
-        divAllMovieInfo.appendChild(divSmallMovieInfo);
+    divInfoMovie.appendChild(divAllMovieInfo);
 
-        divSmallMovieInfo.appendChild(txtMovieGenre);
-        divSmallMovieInfo.appendChild(txtMovieSlash);
-        divSmallMovieInfo.appendChild(txtMovieDuration);
+    divAllMovieInfo.appendChild(txtMovieTitle);
+    txtMovieTitle.innerHTML = "<span>" + movie.titleFr + "</span>";
+    divAllMovieInfo.appendChild(divSmallMovieInfo);
 
-        txtMovieGenre.textContent = movie.genreFr;
-        txtMovieSlash.textContent = " | ";
-        txtMovieDuration.textContent = movie.duration;
+    divSmallMovieInfo.appendChild(txtMovieGenre);
+    divSmallMovieInfo.appendChild(txtMovieSlash);
+    divSmallMovieInfo.appendChild(txtMovieDuration);
 
-
-        divInfoMovie.appendChild(imgPlay);
-
-        divMovie.appendChild(imgMovieCover);
+    txtMovieGenre.textContent = movie.genreFr;
+    txtMovieSlash.textContent = " | ";
+    txtMovieDuration.textContent = movie.duration;
 
 
-        divMovie.setAttribute('class', 'movie');
-        let detailsUrl = '/fr/cinema/details/' + movie.title;
-        divMovie.setAttribute('href', detailsUrl);
-        divInfoMovie.setAttribute('class', 'info_movie');
-        divAllMovieInfo.setAttribute('class', 'all_movies_info');
-        divSmallMovieInfo.setAttribute('class', 'small_movie_infos');
-        txtMovieGenre.setAttribute('class', 'movie_genre');
-        txtMovieSlash.setAttribute('class', 'movie_slash');
-        txtMovieDuration.setAttribute('class', 'movie_duration');
+    divInfoMovie.appendChild(imgPlay);
 
-        imgMovieCover.setAttribute('class', 'movie-img');
-        
-        let urlCover = "../../../static/img/cinema/" + movie.title + ".jpg";
-        imgMovieCover.setAttribute('src', urlCover );
-        imgPlay.setAttribute('src', "../../../static/img/playwhite.png");
-    };
+    divMovie.appendChild(imgMovieCover);
+
+
+    divMovie.setAttribute('class', 'movie');
+    let detailsUrl = '/fr/cinema/details/' + movie.title;
+    divMovie.setAttribute('href', detailsUrl);
+    divInfoMovie.setAttribute('class', 'info_movie');
+    divAllMovieInfo.setAttribute('class', 'all_movies_info');
+    divSmallMovieInfo.setAttribute('class', 'small_movie_infos');
+    txtMovieGenre.setAttribute('class', 'movie_genre');
+    txtMovieSlash.setAttribute('class', 'movie_slash');
+    txtMovieDuration.setAttribute('class', 'movie_duration');
+
+    imgMovieCover.setAttribute('class', 'movie-img');
+    
+    let urlCover = "../../../static/img/cinema/" + movie.title + ".jpg";
+    imgMovieCover.setAttribute('src', urlCover );
+    imgPlay.setAttribute('src', "../../../static/img/playwhite.png");
+  };
+}
+
+renderMovieList();

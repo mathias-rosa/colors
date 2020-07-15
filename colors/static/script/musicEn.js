@@ -50,9 +50,9 @@ const appBox = document.getElementsByClassName("app_box")[0];
         divSmallMusicInfo.setAttribute('class', 'small_music_infos');
         nofsingles.setAttribute('class', 'music_nofsingles');
         if (music.nofsingles === 1) {
-          nofsingles.textContent = music.nofsingles + " titre";
+          nofsingles.textContent = music.nofsingles + " title";
         }else{
-          nofsingles.textContent = music.nofsingles + " titres";
+          nofsingles.textContent = music.nofsingles + " titles";
         };
         txtMusicAuthor.setAttribute('class', 'music_author');
         imgMusicCover.setAttribute('class', 'music-img');

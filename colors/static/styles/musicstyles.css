@@ -64,29 +64,11 @@
     height: 3vh;
     font-size: 2vh;
 }
-.music_genre{
+.music_nofsingles{
     flex: 1;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.music_author{
-    flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    text-align: end;
-}
-.music_duration{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 2vh;
-    padding-left: 1vh;
-    text-align: end;
-}
-.music_slash{
-    font-size: 2vh;
 }
 .small_music_info_un{
     display: flex;
