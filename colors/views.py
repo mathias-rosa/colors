@@ -31,9 +31,9 @@ def mainfr():
                            kmsmoins = kmsmoins,
                            Altitude = Altitude,
                            vitesse = vitesse,
-                           urlbg=urlbg,
                            dest = dest,
-                           weather = weather,
+                           #urlbg=urlbg,
+                           #weather = weather,
                            destlow = destlow,
                            )
 
@@ -88,9 +88,9 @@ def mainen():
                            kmsmoins=kmsmoins,
                            Altitude=Altitude,
                            vitesse=vitesse,
-                           urlbg=urlbg,
                            dest = dest,
-                           weather = weather,
+                           #urlbg=urlbg,
+                           #weather = weather,
                            destlow = destlow,
                            )
 
@@ -146,9 +146,10 @@ def maines():
                            kmsmoins=kmsmoins,
                            Altitude=Altitude,
                            vitesse=vitesse,
-                           urlbg=urlbg,
                            dest = dest,
-                           weather = weather,
+                           #urlbg=urlbg,
+                           #weather = weather,
+                           destlow = destlow,
                            )
 
 @app.route('/es/internet/')

@@ -15,6 +15,7 @@ def countdownset(h,lastm,sleep):
             print(h,"H",m)
         h -= 1
 
+"""
 def weather(city):
     api_key ="111a6362c0e0a1c1e8f7ea43d48eec4b"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -32,7 +33,7 @@ def getFilmsFromApiWithSearchedText(text):
     r = requests.get(url)
     film = r.json()
     return film
-
+"""
 
 heure = 7
 min = 55
@@ -44,8 +45,10 @@ vitesse = 0
 flight_number = "IM 432"
 dest = "Montreal"
 destlow = dest.lower()
+"""
 weather = weather(dest)
 weatherurl = "http://api.openweathermap.org/data/2.5/weather?" + "appid=" + "111a6362c0e0a1c1e8f7ea43d48eec4b" + dest
 urlbg = "../../static/styles/stylesimg/weather/"+ weather+".jpg"
 
 TMDB_API_TOKEN = "5d6bf29b8d5dc0dddb07efa12631141a"
+"""

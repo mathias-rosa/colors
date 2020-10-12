@@ -32,7 +32,6 @@ body{
     justify-content: flex-end;
     width: 65vh;
     margin-right: 1vh;
-    overflow-x: scroll;
 }
 .languages{
     border-radius: 30px;
