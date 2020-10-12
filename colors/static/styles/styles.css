@@ -262,11 +262,14 @@ footer p{
     position: fixed;
     bottom: 9.7451vh;
     width: 70vh;
+    padding-right: 1.1em;
 
 }
+/*
 .f-number{
     padding-right: 37.4813vh;
 }
+*/
 #volumeslider{
     display: none;
     align-self: flex-end;

@@ -47,56 +47,50 @@
 </div>
 <div class="tilesboxbox">
     <div class="tilesbox">
-        <a href="{{ url_for('fr_cinema') }}" >
-            <div class="tile" id="cinema">
+        <div class="tile" id="cinema">
+            <a href="{{ url_for('fr_cinema') }}">
                 <h2>IMAGINAIR</h2>
                 <h1>CINEMA</h1>
-            </div>    
-        </a>    
-        <a href="{{ url_for('fr_videogames') }}" >
-            <div class="tile" id="games">
-                <img src="{{ url_for('static', filename='./img/game.png') }}" alt="gameimg">
-                <div class="txt">
-                    <h2>JEUX</h2>
-                    <h1>VIDEOS</h1>
-                </div>
-            </div>
-        </a>
-        <a href="{{ url_for('fr_internet') }}" >
-            <div class="tile" id="internet">
+            </a>
+        </div>
+        <div class="tile" id="internet">
+            <a href="{{ url_for('fr_internet') }}">
                 <div class="txt">
                     <h2>IMAGINIR</h2>
-                    <img src="{{ url_for('static', filename='./img/internet.png') }}" alt="internetlogo">
+                    <img src="../../static/img/internet.png" alt="internetlogo">
                     <h1>CONNECT</h1>
                 </div>
-            </div>
-        </a>
-        <a href="{{ url_for('fr_music') }}" >
-            <div class="tile" id="music">
-                <img src="{{ url_for('static', filename='./img/music.png') }}" alt="musicimg">
-                <div class="txt">
-                    <h2>MUSIQUE</h2>
-                </div>
-            </div>
-        </a>
-        <a href="{{ url_for('fr_flightmap') }}" >
-            <div class="tile" id="maps">
+            </a>
+        </div>
+        <div class="tile" id="maps">
+            <a href="{{ url_for('fr_flightmap') }}">
                 <div class="txt">
                     <h1>NOTRE</h1>
                     <h2>VOL</h2>
                 </div>
-            </div>
-        </a>
-        <a href="{{ url_for('fr_weather') }}" >
-            <div class="tile" id="weather">
-                <div class="txt">
-                    <h2>{{dest}}</h2>
-                    <h2>{{weather}}</h2>
-                    <h1>METEO</h1>
-                </div>
-            </div>
+            </a>
         </div>
-        </a>
+        <div class="tile" id="games">
+            <a href="{{ url_for('fr_videogames') }}">
+                <img src="/static/./img/game.png" alt="gameimg">
+                <div class="txt">
+                    <h2>JEUX</h2>
+                    <h1>VIDEOS</h1>
+                </div>
+            </a>
+        </div>
+        <div class="tile" id="music">
+            <a href="{{ url_for('fr_music') }}">
+                <img src="/static/./img/music.png" alt="musicimg">
+                <h2>MUSIQUE</h2>
+            </a>
+        </div>
+        <div class="tile" id="weather">
+            <a href="{{ url_for('fr_weather') }}">
+                <h2>MÉTEO</h2>
+            </a>
+        </div>
     </div>
+</div>
 
 {% endblock %}
