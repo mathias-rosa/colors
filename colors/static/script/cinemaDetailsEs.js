@@ -36,9 +36,9 @@ for(let movie of listMovie){
         async function ytid() {
             let varytid = await request();
             if (varytid.results === undefined || varytid.results[0] === undefined || varytid.results[0].key === undefined){
-                urlTrailer = "https://www.youtube.com/embed/"
+                urlTrailer = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
             }else{
-                urlTrailer = "https://www.youtube.com/embed/" + varytid.results[0].key;
+                urlTrailer = "https://www.youtube.com/embed/" + varytid.results[0].key + "?autoplay=1";
             }
         };
         ytid();
