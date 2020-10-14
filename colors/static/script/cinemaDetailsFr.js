@@ -47,11 +47,17 @@ for(let movie of listMovie){
 }
 
 let div_btn_un = document.querySelector('#div_btn_un');
+let div_btn_deux = document.querySelector('#div_btn_deux');
 let trailerbox = document.querySelector('.trailerbox');
 
 div_btn_un.addEventListener('click', () => {
     trailerbox.style.display = "flex";
     player.setAttribute('src', urlTrailer);
+});
+
+div_btn_deux.addEventListener('click', () => {
+    trailerbox.style.display = "flex";
+    player.setAttribute('src', "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1");
 });
 
 trailerbox.addEventListener('click', () => {
