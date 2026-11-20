@@ -11,4 +11,5 @@ class Content(db.Model):
     gender = db.Column(db.Integer(), nullable=False)
 
 
-db.create_all()
+with app.app_context():
+    db.create_all()

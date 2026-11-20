@@ -1,0 +1,18 @@
+[project]
+name = "colors"
+version = "1.0.0"
+description = "In-flight entertainment demo app"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask>=3.1",
+    "flask-sqlalchemy>=3.1",
+    "gunicorn>=23.0",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = []
+
+[tool.setuptools]
+packages = ["colors"]
